@@ -5,8 +5,8 @@ import Header from "@/components/Header";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Anait Vanoian',
-  description: 'Violinist',
+  title: 'Hanna Kelemen',
+  description: 'actress',
 }
 
 export default function RootLayout({
