@@ -12,6 +12,8 @@ export default function Bio({}: Props) {
         <br/>
         <br/>
         <br/>
+
+
         <span className="flex justify-center font-bold">Filmes szerepeim:</span> 
         <br/>
         -Szilágyi Fanni : Orsi és Tensinhan (főszerep) 2018
@@ -34,12 +36,6 @@ export default function Bio({}: Props) {
         />
 
         -Csukás Márton : Mire Várunk? (főszerep) 2020
-        {/* <iframe
-            src="https://player.vimeo.com/video/464769630" frameBorder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
-            title="video1"
-            className="py-4"
-        /> */}
         <iframe
             src="https://www.youtube.com/embed/j5MC0O7m4Zk" frameBorder="0" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
@@ -47,6 +43,8 @@ export default function Bio({}: Props) {
             className="py-4"
         />
         <br/>
+
+
         <span className="flex justify-center font-bold">Színházi szerepeim:</span> 
         <br/>
         -Serei Zsolt gyermek operája - MÜPA Fesztivál Színház - “Számláló”<br/>
@@ -71,6 +69,8 @@ export default function Bio({}: Props) {
         <br/>
         <br/>
         <br/>
+
+
         <span className="flex justify-center font-bold">Hobbijaim: </span> 
         <br/>
         -angol nyelvű irodalom (középfokú nyelvvizsga)<br/>
@@ -81,6 +81,8 @@ export default function Bio({}: Props) {
         <br/>
         <br/>
         <br/>
+
+
         <span className="flex justify-center font-bold">Éneklés: </span> 
         <br/>
         -Bakáts Téri Iskola kórusa<br/>
