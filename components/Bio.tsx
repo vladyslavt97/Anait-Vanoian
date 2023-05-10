@@ -6,6 +6,8 @@ export default function Bio({}: Props) {
     <p className="p-4">
         2003 május 19.-én születtem Kaposváron, zenészcsaládban.
         Zenei tanulmányaim: 2016-ig zongoráztam, 2014-ben első helyezést értem el az Országos budapesti zongoraversenyen.
+        <br/>
+        <br/>
         2016 óta Földessy Margitot szinitanodájába járok.
         <br/>
         <br/>
@@ -13,7 +15,6 @@ export default function Bio({}: Props) {
         <span className="flex justify-center font-bold">Filmes szerepeim:</span> 
         <br/>
         -Szilágyi Fanni : Orsi és Tensinhan (főszerep) 2018
-        {/* https://player.vimeo.com/video/456170189 */}
         <iframe
             src="https://player.vimeo.com/video/456170189" frameBorder="0" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
@@ -25,7 +26,6 @@ export default function Bio({}: Props) {
         <br/>
         <br/>
         -Szabó Szonja : Vércsék (főszerep) 2019
-        {/* https://vimeo.com/398000995?ref=em-share */}
         <iframe
             src="https://player.vimeo.com/video/398000995" frameBorder="0" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
@@ -34,24 +34,26 @@ export default function Bio({}: Props) {
         />
 
         -Csukás Márton : Mire Várunk? (főszerep) 2020
-        {/* https://vimeo.com/464769630 */}
-        <iframe
+        {/* <iframe
             src="https://player.vimeo.com/video/464769630" frameBorder="0" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
             title="video1"
             className="py-4"
+        /> */}
+        <iframe
+            src="https://www.youtube.com/embed/j5MC0O7m4Zk" frameBorder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
+            title="video1"
+            className="py-4"
         />
-        {/* (Jelszó: secretpassword11) */}
         <br/>
-        Színházi szerepeim:
-        <br/>
+        <span className="flex justify-center font-bold">Színházi szerepeim:</span> 
         <br/>
         -Serei Zsolt gyermek operája - MÜPA Fesztivál Színház - “Számláló”<br/>
         Premier : 2017 
         <br/>
         <br/>
         -Rómeó és Júlia - Pesti Magyar Színház - Júlia
-        {/* https://youtu.be/SGCUxyYyr6g */}
         <iframe
             src="https://www.youtube.com/embed/SGCUxyYyr6g" frameBorder="0" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
@@ -68,8 +70,8 @@ export default function Bio({}: Props) {
         Várható premier : Július - augusztus
         <br/>
         <br/>
-        Hobbijaim: 
         <br/>
+        <span className="flex justify-center font-bold">Hobbijaim: </span> 
         <br/>
         -angol nyelvű irodalom (középfokú nyelvvizsga)<br/>
         -modellkedés :<br/>
@@ -78,8 +80,8 @@ export default function Bio({}: Props) {
         Hazai lapok megjelenés : Instyle, MarieClaire, Elle
         <br/>
         <br/>
-        Éneklés: 
         <br/>
+        <span className="flex justify-center font-bold">Éneklés: </span> 
         <br/>
         -Bakáts Téri Iskola kórusa<br/>
         -Kodály Zoltán Iskola kórusa<br/>
@@ -90,7 +92,14 @@ export default function Bio({}: Props) {
         -zongora<br/>
         -gitár
         
-        <a href="https://www.instagram.com/hanna_kelemen_/" target="_blank" rel="noopener noreferrer" className="flex justify-center pt-10 pb-5"><Image width={30} height={30} src="/instagram.png" alt=""/></a>
+        <div className="flex flex-row justify-center gap-5">
+            <a href="https://www.instagram.com/hanna_kelemen_/" target="_blank" rel="noopener noreferrer" className="flex justify-center pt-10 pb-5">
+                <Image width={30} height={30} src="/instagram.png" alt=""/>
+            </a>
+            <a href="https://www.facebook.com/hanna.kelemen.71" target="_blank" rel="noopener noreferrer" className="flex justify-center pt-10 pb-5">
+                <Image width={30} height={30} src="/facebook.png" alt=""/>
+            </a>
+        </div>
     </p>
   )
 }
