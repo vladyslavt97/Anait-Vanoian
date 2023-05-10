@@ -3,7 +3,7 @@ type Props = {}
 
 export default function Bio({}: Props) {
   return (
-    <div className="">
+    <div className="sm:flex flex-col md:px-20 lg:px-44">
         2003 május 19.-én születtem Kaposváron, zenészcsaládban.
         Zenei tanulmányaim: 2016-ig zongoráztam, 2014-ben első helyezést értem el az Országos budapesti zongoraversenyen.
         <br/>
