@@ -21,7 +21,7 @@ export default function Bio({}: Props) {
             src="https://player.vimeo.com/video/456170189" frameBorder="0" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
             title="video1"
-            className="py-4"
+            className="py-4 mx-auto w-64"
         />
 
         -Tóth Barnabás : Akik Maradtak (mellékszerep) 2018
@@ -32,7 +32,7 @@ export default function Bio({}: Props) {
             src="https://player.vimeo.com/video/398000995" frameBorder="0" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
             title="video1"
-            className="py-4"
+            className="py-4 mx-auto w-64"
         />
 
         -Csukás Márton : Mire Várunk? (főszerep) 2020
@@ -40,7 +40,7 @@ export default function Bio({}: Props) {
             src="https://www.youtube.com/embed/j5MC0O7m4Zk" frameBorder="0" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
             title="video1"
-            className="py-4"
+            className="py-4 mx-auto w-64"
         />
         <br/>
 
@@ -56,7 +56,7 @@ export default function Bio({}: Props) {
             src="https://www.youtube.com/embed/SGCUxyYyr6g" frameBorder="0" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
             title="video1"
-            className="py-4"
+            className="py-4 mx-auto w-64"
         />
 
         Rendező : Eperjes Károly<br/>
