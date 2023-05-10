@@ -9,8 +9,8 @@ export default function Bio({}: Props) {
         2016 óta Földessy Margitot szinitanodájába járok.
         <br/>
         <br/>
-        Filmes szerepeim:
         <br/>
+        <span className="flex justify-center font-bold">Filmes szerepeim:</span> 
         <br/>
         -Szilágyi Fanni : Orsi és Tensinhan (főszerep) 2018
         {/* https://player.vimeo.com/video/456170189 */}
