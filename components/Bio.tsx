@@ -3,7 +3,7 @@ type Props = {}
 
 export default function Bio({}: Props) {
   return (
-    <p className="p-4">
+    <div className="">
         2003 május 19.-én születtem Kaposváron, zenészcsaládban.
         Zenei tanulmányaim: 2016-ig zongoráztam, 2014-ben első helyezést értem el az Országos budapesti zongoraversenyen.
         <br/>
@@ -102,6 +102,6 @@ export default function Bio({}: Props) {
                 <Image width={30} height={30} src="/facebook.png" alt=""/>
             </a>
         </div>
-    </p>
+    </div>
   )
 }
