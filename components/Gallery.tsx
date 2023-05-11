@@ -18,7 +18,7 @@ export default function Gallery({}: Props) {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className=""
+        className="z-0"
       >
         <SwiperSlide>
             <Image width={200} height={200} src="/gallery/1.jpg" alt="" className="mx-auto my-5" priority={true}/>
