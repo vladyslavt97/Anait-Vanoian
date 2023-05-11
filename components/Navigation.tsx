@@ -27,11 +27,23 @@ export default function Navigation({}: Props) {
             <motion.div className={styling}/>
         </div>
         {open && 
-            <div className="h-screen bg-gradient-to-b from-indigo-200 via-red-200 to-yellow-100 w-full flex flex-col justify-center items-cneter gap-36 z-40 fixed top-0">
+            <motion.div 
+            initial={{y:-270}}
+            animate={{y:0}}
+            transition={{duration:1}}
+            className=" h-[30%] bg-gradient-to-b from-indigo-200 via-red-200 to-yellow-100 w-full flex flex-col justify-center items-cneter gap-10 z-40 fixed top-0 rounded-bl-lg rounded-br-lg"
+            >
                 <Link href="/" onClick={e => toggleOpen(false)}>Home</Link>
                 <Link href="/gallery" onClick={e => toggleOpen(false)}>Gallery</Link>
                 <Link href="/videos" onClick={e => toggleOpen(false)}>Videos</Link>
-            </div>
+            </motion.div>
+        }
+        {open && 
+        <motion.div 
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        className="fixed top-0 h-screen bg-black/60 w-screen" onClick={e => toggleOpen(false)}
+        />
         }
     </div>
   )
