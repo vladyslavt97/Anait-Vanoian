@@ -16,32 +16,38 @@ export default function Bio({}: Props) {
 
         <span className="flex justify-center font-bold">Filmes szerepeim:</span> 
         <br/>
-        -Szilágyi Fanni : Orsi és Tensinhan (főszerep) 2018
-        <iframe
-            src="https://player.vimeo.com/video/456170189" frameBorder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
-            title="video1"
-            className="py-4 mx-auto w-64"
-        />
+        <div className=" bg-pink-100 p-2 rounded border-2 border-yellow-200 mt-5">
+            -Szilágyi Fanni : Orsi és Tensinhan (főszerep) 2018
+            <iframe
+                src="https://player.vimeo.com/video/456170189" frameBorder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
+                title="video1"
+                className="py-4 mx-auto w-64"
+            />
+        </div>
 
         -Tóth Barnabás : Akik Maradtak (mellékszerep) 2018
         <br/>
         <br/>
-        -Szabó Szonja : Vércsék (főszerep) 2019
-        <iframe
-            src="https://player.vimeo.com/video/398000995" frameBorder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
-            title="video1"
-            className="py-4 mx-auto w-64"
-        />
+        <div className=" bg-pink-100 p-2 rounded border-2 border-yellow-200 mt-5">
+            -Szabó Szonja : Vércsék (főszerep) 2019
+            <iframe
+                src="https://player.vimeo.com/video/398000995" frameBorder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
+                title="video1"
+                className="py-4 mx-auto w-64"
+            />
+        </div>
 
-        -Csukás Márton : Mire Várunk? (főszerep) 2020
-        <iframe
-            src="https://www.youtube.com/embed/j5MC0O7m4Zk" frameBorder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
-            title="video1"
-            className="py-4 mx-auto w-64"
-        />
+        <div className=" bg-pink-100 p-2 rounded border-2 border-yellow-200 mt-5">
+            -Csukás Márton : Mire Várunk? (főszerep) 2020
+            <iframe
+                src="https://www.youtube.com/embed/j5MC0O7m4Zk" frameBorder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
+                title="video1"
+                className="py-4 mx-auto w-64"
+            />
+        </div>
         <br/>
 
 
@@ -51,13 +57,15 @@ export default function Bio({}: Props) {
         Premier : 2017 
         <br/>
         <br/>
-        -Rómeó és Júlia - Pesti Magyar Színház - Júlia
-        <iframe
-            src="https://www.youtube.com/embed/SGCUxyYyr6g" frameBorder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
-            title="video1"
-            className="py-4 mx-auto w-64"
-        />
+        <div className=" bg-pink-100 p-2 rounded border-2 border-yellow-200 mt-5">
+            -Rómeó és Júlia - Pesti Magyar Színház - Júlia
+            <iframe
+                src="https://www.youtube.com/embed/SGCUxyYyr6g" frameBorder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
+                title="video1"
+                className="py-4 mx-auto w-64"
+            />
+        </div>
 
         Rendező : Eperjes Károly<br/>
         Premier : 2020 szeptember 28
