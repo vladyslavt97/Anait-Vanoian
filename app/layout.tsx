@@ -16,10 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='bg-gradient-to-b from-indigo-200 via-red-200 to-yellow-100'>
+      <body className='bg-gradient-to-b from-indigo-200 via-red-200 to-yellow-100 h-full'>
       <Header/>
         {children}
-      {/* <Footer/> */}
+      <Footer/>
       </body>
     </html>
   )

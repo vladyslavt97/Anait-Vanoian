@@ -1,4 +1,3 @@
-import Image from "next/image"
 type Props = {}
 
 export default function Bio({}: Props) {
@@ -102,14 +101,6 @@ export default function Bio({}: Props) {
         -zongora<br/>
         -gitár
         
-        <div className="flex flex-row justify-center gap-5">
-            <a href="https://www.instagram.com/hanna_kelemen_/" target="_blank" rel="noopener noreferrer" className="flex justify-center pt-10 pb-5">
-                <Image width={30} height={30} src="/instagram.png" alt=""/>
-            </a>
-            <a href="https://www.facebook.com/hanna.kelemen.71" target="_blank" rel="noopener noreferrer" className="flex justify-center pt-10 pb-5">
-                <Image width={30} height={30} src="/facebook.png" alt=""/>
-            </a>
-        </div>
     </div>
   )
 }
