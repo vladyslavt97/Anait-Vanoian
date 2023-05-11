@@ -18,7 +18,7 @@ export default function Gallery({}: Props) {
   
   return (
     <>
-    {!open &&
+    {/* {!open && */}
      <Swiper
         pagination={{
           type: "progressbar",
@@ -45,7 +45,8 @@ export default function Gallery({}: Props) {
         <SwiperSlide>
             <Image width={200} height={200} src="/gallery/6.jpg" alt="" className="mx-auto my-5" priority={true}/>
         </SwiperSlide>
-      </Swiper>}
+      </Swiper>
+      {/* } */}
     </>
   );
 }
