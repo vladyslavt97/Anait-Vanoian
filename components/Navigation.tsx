@@ -21,13 +21,13 @@ export default function Navigation({}: Props) {
     
   return (
     <div>
-        <div className="flex flex-col gap-1.5 absolute right-8 top-5 z-[999]" onClick={e => toggleOpen(!open)}>
+        <div className={`flex flex-col gap-1.5 right-8 top-5 z-50 ${open ? "fixed" : "absolute"}`} onClick={e => toggleOpen(!open)}>
             <motion.div className={styling}/>
             <motion.div className={styling}/>
             <motion.div className={styling}/>
         </div>
         {open && 
-            <div className="h-screen bg-gradient-to-b from-indigo-200 via-red-200 to-yellow-100 w-full flex flex-col justify-center items-cneter gap-36 z-[999]">
+            <div className="h-screen bg-gradient-to-b from-indigo-200 via-red-200 to-yellow-100 w-full flex flex-col justify-center items-cneter gap-36 z-40 fixed top-0">
                 <Link href="/" onClick={e => toggleOpen(false)}>Home</Link>
                 <Link href="/gallery" onClick={e => toggleOpen(false)}>Gallery</Link>
                 <Link href="/videos" onClick={e => toggleOpen(false)}>Videos</Link>
