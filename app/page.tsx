@@ -27,8 +27,8 @@ export default function Home() {
         <Image src="/gallery/1.jpg" alt="" width={200} height={200} className="relative top-0 mx-2.5 w-36 border-2 border-purple-400 clip-path-trapezoid z-10" priority={true}/>
         <Image src="/gallery/2.jpg" alt="" width={200} height={200} className="absolute top-36 right-5 mx-2.5 w-36 border-2 border-pink-600 clip-path-trapezoid" priority={true}/>
       </motion.div>
-      {language === "hun" && <h1 className="font-bold text-center py-2 text-lg italic bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-transparent">életrajz</h1>}
-      {language === "eng" && <h1 className="font-bold text-center py-2 text-lg italic bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-transparent">biography</h1>}
+      {language === "hun" && <h1 className="font-bold text-center py-2 text-lg italic bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-transparent">Életrajz</h1>}
+      {language === "eng" && <h1 className="font-bold text-center py-2 text-lg italic bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-transparent">Biography</h1>}
       <Bio/>
     </main>
   )

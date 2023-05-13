@@ -1,13 +1,18 @@
+"use client"
 import Image from "next/image"
+import { useStore } from "./State";
 
 type Props = {}
-
+interface languagesState {
+  language: string,
+}
 export default function Footer({}: Props) {
+  const language = useStore((state: languagesState) => state.language);
   return (
-    <div className="relative bottom-0 bg-orange-700/30 m-3 rounded-lg flex flex-col gap-10 p-3">
+    <div className="relative bottom-0 bg-orange-700/30 m-3 rounded-lg flex flex-col gap-5 p-3">
       <div>
-        <h3 className="italic text-gray-500">Get in touch:</h3>
-        <h3 className="text-gray-500">hanna@gmail.com</h3>
+        <h3 className="italic text-gray-700">{language === "eng" ? "Get in touch:" : "Felveszi a kapcsolatot:"}</h3>
+        <h3 className="text-gray-700">hannakelemen@gmail.com</h3>
       </div>
       
       <div className="flex flex-row justify-center gap-5">
