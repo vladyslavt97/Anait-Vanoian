@@ -30,9 +30,19 @@ export default function Navigation({}: Props) {
   return (
     <div>
         <div className={`flex flex-col gap-1.5 right-8 top-5 z-50 ${open ? "fixed" : "absolute"}`} onClick={e => toggleOpen(!open)}>
-            <motion.div className={styling}/>
-            <motion.div className={styling}/>
-            <motion.div className={styling}/>
+            <motion.div 
+            animate={{rotate: open ? -45 : 0, y: open ? 14 : 0,}}
+            className={styling}/>
+            <motion.div 
+            animate={{opacity: open ? 0 : 1}}
+                transition={{ duration: 0.1 }}
+                className={styling}/>
+            <motion.div 
+            animate={{
+                rotate: open ? 45 : 0,
+                y: open ? -1.5 : 0,
+            }}
+            className={styling}/>
         </div>
         {open && 
             <motion.div 
