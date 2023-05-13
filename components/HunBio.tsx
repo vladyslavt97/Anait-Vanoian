@@ -2,6 +2,7 @@
 type Props = {}
 
 export default function HunBio({}: Props) {
+    const divstyle = " bg-pink-100/50 p-2 rounded-2xl border-gradient-to-b from-orange-500 to-green-500 border-2 mt-5";
   return (
     <div className="sm:flex flex-col md:px-20 lg:px-44">
         2003 május 19.-én születtem Kaposváron, zenészcsaládban.
@@ -16,7 +17,7 @@ export default function HunBio({}: Props) {
 
         <span className="flex justify-center font-bold">Filmes szerepeim:</span> 
         <br/>
-        <div className=" bg-pink-100 p-2 rounded-2xl border-2 border-orange-200 mt-5">
+        <div className={divstyle}>
             - Szilágyi Fanni : Orsi és Tensinhan (főszerep) 2018
             <iframe
                 src="https://player.vimeo.com/video/456170189" frameBorder="0" 
@@ -29,7 +30,7 @@ export default function HunBio({}: Props) {
         - Tóth Barnabás : Akik Maradtak (mellékszerep) 2018
         <br/>
         <br/>
-        <div className=" bg-pink-100 p-2 rounded-2xl border-2 border-orange-200 mt-5">
+        <div className={divstyle}>
             - Szabó Szonja : Vércsék (főszerep) 2019
             <iframe
                 src="https://player.vimeo.com/video/398000995" frameBorder="0" 
@@ -39,7 +40,7 @@ export default function HunBio({}: Props) {
             />
         </div>
 
-        <div className=" bg-pink-100 p-2 rounded-2xl border-2 border-orange-200 mt-5">
+        <div className={divstyle}>
             - Csukás Márton : Mire Várunk? (főszerep) 2020
             <iframe
                 src="https://www.youtube.com/embed/j5MC0O7m4Zk" frameBorder="0" 
@@ -57,7 +58,7 @@ export default function HunBio({}: Props) {
         Premier : 2017 
         <br/>
         <br/>
-        <div className=" bg-pink-100 p-2 rounded-2xl border-2 border-orange-200 mt-5">
+        <div className={divstyle}>
             - Rómeó és Júlia - Pesti Magyar Színház - Júlia
             <iframe
                 src="https://www.youtube.com/embed/SGCUxyYyr6g" frameBorder="0" 
