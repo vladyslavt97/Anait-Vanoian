@@ -6,7 +6,7 @@ const roboto = Barlow({ subsets: ['latin'], weight: ["400", "500"], style: ["ita
 
 export const metadata = {
   title: 'Hanna Kelemen',
-  description: 'actress',
+  description: '',
 }
 
 export default function RootLayout({
