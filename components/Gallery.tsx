@@ -16,9 +16,9 @@ interface openState {
 export default function Gallery({}: Props) {
   const open = useStore((state: openState) => state.open);
   
+  const imageUrls = Array.from({ length: 31 }, (_, i) => `/gallery/${i + 1}.jpg`);
   return (
     <>
-    {/* {!open && */}
      <Swiper
         pagination={{
           type: "progressbar",
@@ -27,26 +27,12 @@ export default function Gallery({}: Props) {
         modules={[Pagination, Navigation]}
         className="z-0"
       >
-        <SwiperSlide>
-            <Image width={200} height={200} src="/gallery/1.jpg" alt="" className="mx-auto my-5" priority={true}/>
-        </SwiperSlide>
-        <SwiperSlide>
-            <Image width={200} height={200} src="/gallery/2.jpg" alt="" className="mx-auto my-5" priority={true}/>
-        </SwiperSlide>
-        <SwiperSlide>
-            <Image width={200} height={200} src="/gallery/4.jpg" alt="" className="mx-auto my-5" priority={true}/>
-        </SwiperSlide>
-        <SwiperSlide>
-            <Image width={200} height={200} src="/gallery/3.jpg" alt="" className="mx-auto my-5" priority={true}/>
-        </SwiperSlide>
-        <SwiperSlide>
-            <Image width={200} height={200} src="/gallery/5.jpg" alt="" className="mx-auto my-5" priority={true}/>
-        </SwiperSlide>
-        <SwiperSlide>
-            <Image width={200} height={200} src="/gallery/6.jpg" alt="" className="mx-auto my-5" priority={true}/>
-        </SwiperSlide>
+        {imageUrls.map((url, i)=>(
+          <SwiperSlide key={i}>
+              <Image width={200} height={200} src={url} alt="photo" className="mx-auto my-5" priority={true}/>
+          </SwiperSlide>
+        ))}
       </Swiper>
-      {/* } */}
     </>
   );
 }
