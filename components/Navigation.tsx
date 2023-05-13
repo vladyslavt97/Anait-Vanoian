@@ -2,6 +2,7 @@
 import { motion } from "framer-motion"
 import Link from "next/link";
 import { useStore } from "./State";
+import { usePathname } from 'next/navigation';
 
 type Props = {}
 interface openState {
@@ -10,6 +11,8 @@ interface openState {
 }
 
 export default function Navigation({}: Props) {
+    const pathname = usePathname();
+    
     const open = useStore((state: openState) => state.open);
     const setOpen = useStore((state: openState) => state.setOpen);
     const styling = "w-7 bg-pink-500 h-0.5";
@@ -17,6 +20,7 @@ export default function Navigation({}: Props) {
     const toggleOpen = (value: boolean) => {
         setOpen(value);
     }
+    console.log(pathname);
     
   return (
     <div>
@@ -30,11 +34,11 @@ export default function Navigation({}: Props) {
             initial={{y:-270}}
             animate={{y:0}}
             transition={{duration:1}}
-            className=" h-[30%] bg-gradient-to-b from-indigo-200 via-red-200 to-yellow-100 w-full flex flex-col justify-center items-cneter gap-10 z-40 fixed top-0 rounded-bl-lg rounded-br-lg"
+            className=" h-[30%] bg-gradient-to-b from-indigo-200 via-red-200 to-yellow-100 w-full flex flex-col justify-center items-center gap-10 z-40 fixed top-0 rounded-bl-lg rounded-br-lg"
             >
-                <Link href="/" onClick={e => toggleOpen(false)}>Home</Link>
-                <Link href="/gallery" onClick={e => toggleOpen(false)}>Gallery</Link>
-                <Link href="/videos" onClick={e => toggleOpen(false)}>Videos</Link>
+                <Link href="/" onClick={e => toggleOpen(false)} className={pathname === "/" ? "text-red-400 underline italic w-20 mx-auto" : "w-20 mx-auto"}>Home</Link>
+                <Link href="/gallery" onClick={e => toggleOpen(false)} className={pathname === "/gallery" ? "text-red-400 underline italic w-20 mx-auto" : "w-20 mx-auto"}>Gallery</Link>
+                <Link href="/videos" onClick={e => toggleOpen(false)} className={pathname === "/videos" ? "text-red-400 underline italic w-20 mx-auto" : "w-20 mx-auto"}>Videos</Link>
             </motion.div>
         }
         {open && 
