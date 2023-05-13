@@ -23,9 +23,9 @@ export default function LanguageSwitch({}: Props) {
   return (
     <div className="absolute left-8 top-3">
         <Box>
-            <ButtonGroup size="small" aria-label="large button group">
-                <Button onClick={hunBio} key="one">HUN</Button>
-                <Button onClick={engBio} key="two">ENG</Button>
+            <ButtonGroup size="small" aria-label="small button group">
+                <Button onClick={hunBio} key="one" color="secondary">HUN</Button>
+                <Button onClick={engBio} key="two" color="secondary">ENG</Button>
             </ButtonGroup>
         </Box>
     </div>
