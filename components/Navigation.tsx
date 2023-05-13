@@ -17,7 +17,6 @@ export default function Navigation({}: Props) {
     const toggleOpen = (value: boolean) => {
         setOpen(value);
     }
-    console.log('open', open);
     
   return (
     <div>
