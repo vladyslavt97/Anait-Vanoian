@@ -10,7 +10,12 @@ interface openState {
   setOpen: (open: boolean) => void;
 }
 
+interface languagesState {
+  language: string,
+}
+
 export default function Navigation({}: Props) {
+  const language = useStore((state: languagesState) => state.language);
     const pathname = usePathname();
     
     const open = useStore((state: openState) => state.open);
@@ -36,9 +41,9 @@ export default function Navigation({}: Props) {
             transition={{duration:1}}
             className=" h-[30%] bg-gradient-to-b from-indigo-200 via-red-200 to-yellow-100 w-full flex flex-col justify-center items-center gap-10 z-40 fixed top-0 rounded-bl-lg rounded-br-lg"
             >
-                <Link href="/" onClick={e => toggleOpen(false)} className={pathname === "/" ? "text-red-400 underline italic w-20 mx-auto" : "w-20 mx-auto"}>Home</Link>
-                <Link href="/gallery" onClick={e => toggleOpen(false)} className={pathname === "/gallery" ? "text-red-400 underline italic w-20 mx-auto" : "w-20 mx-auto"}>Gallery</Link>
-                <Link href="/videos" onClick={e => toggleOpen(false)} className={pathname === "/videos" ? "text-red-400 underline italic w-20 mx-auto" : "w-20 mx-auto"}>Videos</Link>
+                <Link href="/" onClick={e => toggleOpen(false)} className={pathname === "/" ? "text-red-400 underline italic w-20 mx-auto" : "w-20 mx-auto"}>{language === "hun" ? "Kezdőlap" : "Home"}</Link>
+                <Link href="/gallery" onClick={e => toggleOpen(false)} className={pathname === "/gallery" ? "text-red-400 underline italic w-20 mx-auto" : "w-20 mx-auto"}>{language === "hun" ? "Képtár" : "Gallery"}</Link>
+                <Link href="/videos" onClick={e => toggleOpen(false)} className={pathname === "/videos" ? "text-red-400 underline italic w-20 mx-auto" : "w-20 mx-auto"}>{language === "hun" ? "Videók" : "Videos"}</Link>
             </motion.div>
         }
         {open && 
