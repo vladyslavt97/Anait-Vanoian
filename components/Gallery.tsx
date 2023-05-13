@@ -29,7 +29,7 @@ export default function Gallery({}: Props) {
       >
         {imageUrls.map((url, i)=>(
           <SwiperSlide key={i}>
-              <Image width={200} height={200} src={url} alt="photo" className="mx-auto my-5" priority={true}/>
+              <Image width={200} height={200} src={url} alt="photo" className="mx-auto my-5 w-80 h-80 object-contain" priority={true}/>
           </SwiperSlide>
         ))}
       </Swiper>
