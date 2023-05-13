@@ -19,10 +19,7 @@ export default function Home() {
       className="font-bold text-center pt-16 pb-5 text-4xl italic bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 text-transparent">Kelemen Hanna</motion.h1>
       <motion.div
       initial={{opacity:0, x:50}}
-      animate={{opacity:1, x:0, transition: {
-        type: "spring",
-        stiffness: 80,
-      }}}
+      animate={{opacity:1, x:0}}
       transition={{duration:1}}
       >
         <Image src="/gallery/1.jpg" alt="" width={400} height={400} className="relative top-0 rounded-full w-full px-2.5"/>
