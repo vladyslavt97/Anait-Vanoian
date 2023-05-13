@@ -8,7 +8,7 @@ interface languagesState {
   language: string,
 }
 
-export default function page({}: Props) {
+export default function Page({}: Props) {
   const language = useStore((state: languagesState) => state.language);
 
   return (
