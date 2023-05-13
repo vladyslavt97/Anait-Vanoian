@@ -9,7 +9,6 @@ interface languagesState {
 }
 export default function Bio({}: Props) {
     const language = useStore((state: languagesState) => state.language);
-    console.log('languagelanguage', language);
   return (
     <>
     {language === "hun" && <HunBio/>}
