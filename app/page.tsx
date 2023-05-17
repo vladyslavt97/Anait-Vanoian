@@ -20,8 +20,12 @@ export default function Home() {
         Kelemen Hanna
       </motion.h1>
       <motion.div
-      initial={{opacity:0, x:5, y:5}}
-      animate={{opacity:1, x:0, y:0}}
+      initial={{opacity:0, 
+        // x:5, y:5
+      }}
+      animate={{opacity:1,
+        // x:0, y:0
+      }}
       transition={{duration:1, delay: 0.2}}
       className="relative top-0 mx-2.5 w-36 sm:w-64 md:left-40 border-2 border-purple-400 clip-path-trapezoid z-10"
       >

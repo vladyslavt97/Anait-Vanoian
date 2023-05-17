@@ -4,7 +4,7 @@ type Props = {}
 export default function HunBio({}: Props) {
     const divstyle = " bg-pink-100/50 p-2 rounded-2xl border-gradient-to-b from-orange-500 to-green-500 border-2 mt-5";
   return (
-    <div className="sm:flex flex-col md:px-20 lg:px-44">
+    <div className="sm:flex flex-col md:px-20 lg:px-44 text-purple-950">
         I was born on May 19, 2003 in Kaposvár, in a family of musicians.
         My musical studies: I played the piano until 2016, in 2014 I won first place at the National Budapest Piano Competition.
         <br/>

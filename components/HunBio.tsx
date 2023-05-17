@@ -4,7 +4,7 @@ type Props = {}
 export default function HunBio({}: Props) {
     const divstyle = " bg-pink-100/50 p-2 rounded-2xl border-gradient-to-b from-orange-500 to-green-500 border-2 mt-5";
   return (
-    <div className="sm:flex flex-col md:px-20 lg:px-44">
+    <div className="sm:flex flex-col md:px-20 lg:px-44 text-purple-950">
         2003 május 19.-én születtem Kaposváron, zenészcsaládban.
         Zenei tanulmányaim: 2016-ig zongoráztam, 2014-ben első helyezést értem el az Országos budapesti zongoraversenyen.
         <br/>
