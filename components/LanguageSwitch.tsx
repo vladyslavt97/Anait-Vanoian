@@ -21,7 +21,7 @@ export default function LanguageSwitch({}: Props) {
  
   const setLanguage = useStore((state: languagesState) => state.setLanguage);
   return (
-    <div className="absolute left-8 top-3">
+    <div className="absolute left-8 top-3 shadow-lg">
         <Box>
             <ButtonGroup size="small" aria-label="small button group">
                 <Button onClick={hunBio} key="one" color="secondary">HUN</Button>

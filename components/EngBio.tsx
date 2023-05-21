@@ -2,7 +2,10 @@
 type Props = {}
 
 export default function HunBio({}: Props) {
-    const divstyle = " bg-pink-100/50 p-2 rounded-2xl border-gradient-to-b from-orange-500 to-green-500 border-2 mt-5";
+
+    const divstyle = " bg-pink-100/50 p-2 rounded-2xl border-gradient-to-b from-orange-500 to-pink-500 border-2 mt-5";
+
+
   return (
     <div className="sm:flex flex-col md:px-20 lg:px-44 text-purple-950">
         I was born on May 19, 2003 in Kaposvár, in a family of musicians.
@@ -17,7 +20,7 @@ export default function HunBio({}: Props) {
 
         <span className="flex justify-center font-bold">Filmes szerepeim:</span> 
         <br/>
-        <div className={divstyle}>
+        <div className={divstyle} id="thevideosdivs">
             - Szilágyi Fanni : Orsi és Tensinhan (main role) 2018
             <iframe
                 src="https://player.vimeo.com/video/456170189" frameBorder="0" 
@@ -30,7 +33,7 @@ export default function HunBio({}: Props) {
         - Tóth Barnabás : Those who stayed (supporting role) 2018
         <br/>
         <br/>
-        <div className={divstyle}>
+        <div className={divstyle} id="thevideosdivs">
             - Szabó Szonja : Vércsék (main role) 2019
             <iframe
                 src="https://player.vimeo.com/video/398000995" frameBorder="0" 
@@ -40,7 +43,7 @@ export default function HunBio({}: Props) {
             />
         </div>
 
-        <div className={divstyle}>
+        <div className={divstyle} id="thevideosdivs">
             - Csukás Márton : What are we waiting? (main role) 2020
             <iframe
                 src="https://www.youtube.com/embed/j5MC0O7m4Zk" frameBorder="0" 
@@ -58,7 +61,7 @@ export default function HunBio({}: Props) {
         Premiere: 2017
         <br/>
         <br/>
-        <div className={divstyle}>
+        <div className={divstyle} id="thevideosdivs">
             - Romeo and Juliet - Pest Hungarian Theater - Juliet
             <iframe
                 src="https://www.youtube.com/embed/SGCUxyYyr6g" frameBorder="0" 
