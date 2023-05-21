@@ -48,7 +48,7 @@ export default function Navigation({}: Props) {
             initial={{y:-270}}
             animate={{y:0}}
             transition={{duration:1}}
-            className=" h-[30%] bg-gradient-to-b from-indigo-200 via-red-200 to-yellow-100 w-full flex flex-col justify-center items-center gap-10 z-40 fixed top-0 rounded-bl-lg rounded-br-lg"
+            className=" h-[30%] bg-gradient-to-b from-indigo-200 via-red-200 to-yellow-100 w-full flex flex-col justify-center items-center gap-10 z-40 fixed top-0 rounded-bl-lg rounded-br-lg text-purple-950"
             >
                 <Link href="/" onClick={e => toggleOpen(false)} className={pathname === "/" ? "text-red-400 underline italic w-20 mx-auto font-bold" : "w-20 mx-auto font-mono"}>{language === "hun" ? "Életrajz" : "Biography"}</Link>
                 <Link href="/gallery" onClick={e => toggleOpen(false)} className={pathname === "/gallery" ? "text-red-400 underline italic w-20 mx-auto font-bold" : "w-20 mx-auto font-mono"}>{language === "hun" ? "Képtár" : "Gallery"}</Link>
