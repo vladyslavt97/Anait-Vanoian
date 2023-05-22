@@ -1,2 +1,2 @@
-## add video and photos
+## add video
 ## correct text HUN
