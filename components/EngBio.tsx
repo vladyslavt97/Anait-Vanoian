@@ -3,7 +3,7 @@ type Props = {}
 
 export default function HunBio({}: Props) {
 
-    const divstyle = " bg-pink-100/50 p-2 rounded-2xl border-gradient-to-b from-orange-500 to-pink-500 border-2 mt-5";
+    const divstyle = " bg-pink-100/50 p-2 rounded-2xl border-yellow-500/30 border-2 mt-5 ";
 
 
   return (
