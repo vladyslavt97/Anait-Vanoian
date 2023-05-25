@@ -8,7 +8,7 @@ export default function HunBio({}: Props) {
 
   return (
     <div className="sm:flex flex-col md:px-20 lg:px-44 text-purple-950">
-        I was born on May 19, 2003 in Kaposvár, in a family of musicians.
+        I was born on May 19, 2003 in Kaposvár, in a family of musicians!
         My musical studies: I played the piano until 2016, in 2014 I won first place at the National Budapest Piano Competition.
         <br/>
         <br/>
