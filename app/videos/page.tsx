@@ -1,9 +1,20 @@
+import videos from "../../videos.json"
 type Props = {}
 
 export default function Page({}: Props) {
+
   return (
-    <div className="bg-gradient-to-b from-white to-yellow-100/30 rounded-2xl m-2.5 p-4 h-screen flex flex-col justify-center gap-10">
-        Videos incoming...
+    <div className="bg-gradient-to-b from-white to-yellow-100/30 rounded-2xl m-2.5 p-4 h-screen flex flex-col gap-10">
+      
+        {videos.map((video, i) => (
+          <div key={i}>
+            <iframe 
+                src={`https://www.youtube.com/embed/${video.video}`} frameBorder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
+                title="video1">
+            </iframe>
+        </div>
+        ))}
     </div>
   )
 }
