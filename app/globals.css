@@ -2,34 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
-
 .clip-path-trapezoid {
   clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
 }
 
 #thevideosdivs{
   box-shadow: 0px 0px 30px #e6a8ff7a;
+}
+
+body{
+  overflow-x: hidden;
 }
