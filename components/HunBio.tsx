@@ -15,7 +15,7 @@ export default function HunBio({}: Props) {
         <br/>
 
 
-        <span className="flex justify-center font-bold">Filmes szerepeim:</span> 
+        <span className="flex justify-center font-bold text-black">Filmes szerepeim:</span> 
         <br/>
         <div className={divstyle} id="thevideosdivs">
             - Szilágyi Fanni : Orsi és Tensinhan (főszerep) 2018
@@ -52,7 +52,7 @@ export default function HunBio({}: Props) {
         <br/>
 
 
-        <span className="flex justify-center font-bold">Színházi szerepeim:</span> 
+        <span className="flex justify-center font-bold text-black">Színházi szerepeim:</span> 
         <br/>
         - Serei Zsolt gyermek operája - MÜPA Fesztivál Színház - “Számláló”<br/>
         Premier : 2017 
@@ -92,7 +92,7 @@ export default function HunBio({}: Props) {
         <br/>
         <br/>
 
-        <span className="flex justify-center font-bold">Hobbijaim: </span> 
+        <span className="flex justify-center font-bold text-black">Hobbijaim: </span> 
         <br/>
         - angol nyelvű irodalom (középfokú nyelvvizsga)<br/>
         - modellkedés :<br/>
@@ -104,7 +104,7 @@ export default function HunBio({}: Props) {
         <br/>
 
 
-        <span className="flex justify-center font-bold">Éneklés: </span> 
+        <span className="flex justify-center font-bold text-black">Éneklés: </span> 
         <br/>
         - Bakáts Téri Iskola kórusa<br/>
         - Kodály Zoltán Iskola kórusa<br/>
