@@ -1,8 +1,10 @@
 import './globals.css'
-import { Barlow } from 'next/font/google'
+import { Vollkorn } from 'next/font/google'
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-const roboto = Barlow({ subsets: ['latin'], weight: ["400", "500"], style: ["italic", "normal"] })
+
+
+const roboto = Vollkorn({ subsets: ['latin'], weight: ["400", "500"], style: ["italic", "normal"] })
 
 export const metadata = {
   title: 'Hanna Kelemen',
@@ -16,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} bg-gray-300 h-full`}>
+      <body className={`${roboto.className} bg-gray-300 h-full overflow-x-hidden`}>
       <Header/>
         {children}
       <Footer/>

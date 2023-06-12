@@ -11,7 +11,9 @@ interface languagesState {
 export default function Home() {
   const language = useStore((state: languagesState) => state.language);
   return (
-    <main className="bg-green-900 rounded-2xl m-2.5 p-4">
+    <main 
+    className="bg-green-900 rounded-2xl m-2.5 p-4"
+    >
       <motion.h1 
       initial={{opacity:0}}
       animate={{opacity:1}}

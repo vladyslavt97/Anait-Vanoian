@@ -21,11 +21,11 @@ export default function LanguageSwitch({}: Props) {
  
   const setLanguage = useStore((state: languagesState) => state.setLanguage);
   return (
-    <div className="absolute left-8 top-3 shadow-lg">
+    <div className="absolute left-8 top-3 shadow-lg z-10">
         <Box>
             <ButtonGroup size="small" aria-label="small button group">
-                <Button onClick={hunBio} key="one" color="secondary">HUN</Button>
-                <Button onClick={engBio} key="two" color="secondary">ENG</Button>
+                <Button onClick={hunBio} key="one" sx={{ color: "black" }}>HUN</Button>
+                <Button onClick={engBio} key="two" sx={{ color: "black" }}>ENG</Button>
             </ButtonGroup>
         </Box>
     </div>
