@@ -3,6 +3,8 @@ import Image from "next/image"
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import { useStore } from "./State";
+import ClipLoader from "react-spinners/ClipLoader";
+
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -33,6 +35,11 @@ export default function Gallery({}: Props) {
 
   return (
     <>
+    {imageUrls.length === 0 ? 
+      <div className="flex justify-center items-center">
+        <ClipLoader color="#36d7b7" />
+        </div>
+        :
      <Swiper
         pagination={{
           type: "progressbar",
@@ -47,6 +54,7 @@ export default function Gallery({}: Props) {
           </SwiperSlide>
         ))}
       </Swiper>
+      }
     </>
   );
 }
