@@ -13,7 +13,7 @@ export default function Page({}: Props) {
   const language = useStore((state: languagesState) => state.language);
 
   return (
-    <div className="bg-gradient-to-b from-white to-yellow-100/30 rounded-2xl m-2.5 p-4 h-screen flex flex-col justify-center gap-10">
+    <div className="bg-amber-400 rounded-2xl m-2.5 p-4 h-screen flex flex-col justify-center gap-10">
         <div>
           <motion.h2 
             initial={{opacity:0}}

@@ -4,7 +4,7 @@ type Props = {}
 export default function HunBio({}: Props) {
     const divstyle = " bg-pink-100/50 p-2 rounded-2xl border-yellow-500/30 border-2 mt-5 ";
   return (
-    <div className="sm:flex flex-col md:px-20 lg:px-44 text-purple-950">
+    <div className="sm:flex flex-col md:px-20 lg:px-44 text-white">
         2003 május 19.-én születtem Kaposváron, zenészcsaládban.
         Zenei tanulmányaim: 2016-ig zongoráztam, 2014-ben első helyezést értem el az Országos budapesti zongoraversenyen.
         <br/>
@@ -78,7 +78,12 @@ export default function HunBio({}: Props) {
         <br/>
         <br/>
         <br/>
-
+        -Chicago- Sopron Petőfi Színház- Roxie Hart<br/>
+        Rendező: Eperjes Károly<br/>
+        Premier: April 22nd
+        <br/>
+        <br/>
+        <br/>
 
         <span className="flex justify-center font-bold">Hobbijaim: </span> 
         <br/>

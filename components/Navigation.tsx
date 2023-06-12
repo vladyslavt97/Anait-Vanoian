@@ -20,7 +20,7 @@ export default function Navigation({}: Props) {
     
     const open = useStore((state: openState) => state.open);
     const setOpen = useStore((state: openState) => state.setOpen);
-    const styling = "w-7 bg-pink-500 h-0.5";
+    const styling = "w-7 bg-blue-950 h-0.5";
 
     const toggleOpen = (value: boolean) => {
         setOpen(value);
@@ -48,14 +48,14 @@ export default function Navigation({}: Props) {
             initial={{y:-270}}
             animate={{y:0}}
             transition={{duration:1}}
-            className=" h-[30%] bg-gradient-to-b from-indigo-200 via-red-200 to-yellow-100 w-full flex flex-col justify-center items-center gap-10 z-40 fixed top-0 rounded-bl-lg rounded-br-lg text-purple-950"
+            className=" h-[30%] bg-gradient-to-b from-lime-200 to-green-900/60 w-full flex flex-col justify-center items-center gap-10 z-40 fixed top-0 rounded-bl-lg rounded-br-lg text-white"
             >
               <motion.div
               initial={{x:-10, opacity:0}}
               animate={{x:0, opacity:1}}
               transition={{duration:1, delay:0.6}}
               >
-                <Link href="/" onClick={e => toggleOpen(false)} className={pathname === "/" ? "text-red-400 underline italic w-20 mx-auto font-bold" : "w-20 mx-auto font-mono"}>{language === "hun" ? "Életrajz" : "Biography"}</Link>
+                <Link href="/" onClick={e => toggleOpen(false)} className={pathname === "/" ? "text-black underline italic w-20 mx-auto font-bold" : "w-20 mx-auto font-mono"}>{language === "hun" ? "Életrajz" : "Biography"}</Link>
               </motion.div>
               <motion.div
               initial={{x:-20, opacity:0}}
