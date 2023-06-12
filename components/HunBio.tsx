@@ -78,9 +78,16 @@ export default function HunBio({}: Props) {
         <br/>
         <br/>
         <br/>
-        -Chicago- Sopron Petőfi Színház- Roxie Hart<br/>
+        - Chicago- Sopron Petőfi Színház- Roxie Hart<br/>
         Rendező: Eperjes Károly<br/>
         Premier: April 22nd
+        <br/>
+        <br/>
+        <br/>
+        - Veszedelmes Viszonyok<br/>
+        Cécile de Volanges<br/>
+        Rendező: Kiss Csaba<br/>
+        Premier- 2022 január 28
         <br/>
         <br/>
         <br/>
