@@ -11,7 +11,7 @@ interface languagesState {
 
 export default function Page({}: Props) {
   const language = useStore((state: languagesState) => state.language);
-
+  
   return (
     <div className="bg-amber-400 rounded-2xl m-2.5 p-4 h-screen flex flex-col justify-center gap-10">
         <div>

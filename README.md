@@ -1,10 +1,5 @@
-## add video
-
 ## correct text HUN
 
-//https://fonts.google.com/specimen/Cormorant+Garamond add font
-
-//front page iamge
 //titles black
 
 //text outline for black text
@@ -20,3 +15,5 @@
 //switch for videos and interviews
 
 //body ovberflow hidden
+
+//add supabase bucket!!!
