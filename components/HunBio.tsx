@@ -15,8 +15,7 @@ export default function HunBio({}: Props) {
         <br/>
 
 
-        <span className="flex justify-center font-bold text-black">Filmes szerepeim:</span> 
-        <br/>
+        <span className="flex justify-center font-bold text-black" style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}>Filmes szerepeim:</span> 
         <div className={divstyle} id="thevideosdivs">
             - Szilágyi Fanni : Orsi és Tensinhan (főszerep) 2018
             <iframe
@@ -50,10 +49,9 @@ export default function HunBio({}: Props) {
             />
         </div>
         <br/>
-
-
-        <span className="flex justify-center font-bold text-black">Színházi szerepeim:</span> 
         <br/>
+
+        <span className="flex justify-center font-bold text-black" style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}>Színházi szerepeim:</span> 
         - Serei Zsolt gyermek operája - MÜPA Fesztivál Színház - “Számláló”<br/>
         Premier : 2017 
         <br/>
@@ -92,8 +90,7 @@ export default function HunBio({}: Props) {
         <br/>
         <br/>
 
-        <span className="flex justify-center font-bold text-black">Hobbijaim: </span> 
-        <br/>
+        <span className="flex justify-center font-bold text-black" style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}>Hobbijaim: </span> 
         - angol nyelvű irodalom (középfokú nyelvvizsga)<br/>
         - modellkedés :<br/>
         - 2018 - Tokio - Két hónap <br/>
@@ -104,8 +101,7 @@ export default function HunBio({}: Props) {
         <br/>
 
 
-        <span className="flex justify-center font-bold text-black">Éneklés: </span> 
-        <br/>
+        <span className="flex justify-center font-bold text-black" style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}>Éneklés: </span> 
         - Bakáts Téri Iskola kórusa<br/>
         - Kodály Zoltán Iskola kórusa<br/>
         - Németországban - Kölni Dóm kórus - 2017-19
@@ -114,7 +110,8 @@ export default function HunBio({}: Props) {
         - Jazz/Pop dalok éneklése<br/>
         - zongora<br/>
         - gitár
-        
+        <br/>
+        <br/><br/>
     </div>
   )
 }
