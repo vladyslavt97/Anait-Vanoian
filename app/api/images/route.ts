@@ -2,24 +2,23 @@ import supabase from "@/lib/supabase";
 
 
 export async function GET(request: Request) {
-    const { data: files, error } = await supabase.storage.from('hanna').list("films");
+    const { data: files, error } = await supabase.storage
+    .from('hanna')
+    .list("films");
 
-  if (error) {
-    console.error('Error fetching file metadata:', error);
-    return [];
-  }
-  console.log('files', files.length);  
-  
+    if (error) {
+        console.error('Error fetching file metadata:', error);
+        return [];
+    } else {
+
     const publicUrls = await Promise.all(
     files.map(async (file) => {
       const { data: { publicUrl } } = await supabase.storage
-        .from('hanna')
+        .from('hanna/films')
         .getPublicUrl(file.name);
-      console.log('somethin2', publicUrl);
       return publicUrl;
     })
   );
-  console.log('pbu', publicUrls);
-  
-
+    return new Response(JSON.stringify({publicUrls}));
+    }
 }
