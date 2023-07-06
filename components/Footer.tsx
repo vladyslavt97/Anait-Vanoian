@@ -9,7 +9,7 @@ interface languagesState {
 export default function Footer({}: Props) {
   const language = useStore((state: languagesState) => state.language);
   return (
-    <div className="relative bottom-0 bg-yellow-400/50 m-3 rounded-lg flex flex-col gap-5 p-3 shadow-xl">
+    <div className="relative bottom-0 bg-gray-300 m-3 rounded-lg flex flex-col gap-5 p-3 shadow-xl">
       <div>
         <h3 className="italic text-gray-700">{language === "eng" ? "Get in touch:" : "Felveszi a kapcsolatot:"}</h3>
         <h3 className="text-gray-700">hannakelemen1@gmail.com</h3>
