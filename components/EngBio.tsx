@@ -3,7 +3,7 @@ type Props = {}
 
 export default function HunBio({}: Props) {
 
-    const divstyle = " bg-pink-100/50 p-2 rounded-2xl border-yellow-500/30 border-2 mt-5 ";
+    const divstyle = " bg-gray-400/50 p-2 rounded-2xl mt-5 ";
 
 
   return (
@@ -18,7 +18,7 @@ export default function HunBio({}: Props) {
         <br/>
 
 
-        <span className="flex justify-center font-bold">Filmes szerepeim:</span> 
+        <span className="flex justify-center font-bold text-black" style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}>Filmes szerepeim:</span> 
         <br/>
         <div className={divstyle} id="thevideosdivs">
             - Szilágyi Fanni : Orsi és Tensinhan (main role) 2018
@@ -55,7 +55,7 @@ export default function HunBio({}: Props) {
         <br/>
 
 
-        <span className="flex justify-center font-bold">My theater roles:</span> 
+        <span className="flex justify-center font-bold text-black" style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}>My theater roles:</span> 
         <br/>
         - Children&lsquo;s opera by Zsolt Serei - MÜPA Festival Theater - &ldquo;Counter&ldquo;<br/>
         Premiere: 2017
@@ -83,7 +83,7 @@ export default function HunBio({}: Props) {
         <br/>
 
 
-        <span className="flex justify-center font-bold">My hobbies: </span> 
+        <span className="flex justify-center font-bold text-black" style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}>My hobbies: </span> 
         <br/>
         - literature in English (intermediate language exam)<br/>
         - modeling :<br/>
@@ -95,7 +95,7 @@ export default function HunBio({}: Props) {
         <br/>
 
 
-        <span className="flex justify-center font-bold">Singing: </span> 
+        <span className="flex justify-center font-bold text-black" style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}>Singing: </span> 
         <br/>
         - Bakáts Téri School choir<br/>
         - Kodály Zoltán Kodály School<br/>
