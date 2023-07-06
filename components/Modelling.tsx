@@ -16,12 +16,12 @@ interface openState {
     open: false;
 }
 
-export default function Gallery({}: Props) {
+export default function Modelling({}: Props) {
   const open = useStore((state: openState) => state.open);
   const [imageUrls, setImages] = useState([])
 
   useEffect(()=>{
-    fetch('/api/images')
+    fetch('/api/modelling')
       .then(response => {
           return response.json()
       })
