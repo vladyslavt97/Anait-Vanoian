@@ -7,7 +7,7 @@ export default function HunBio({}: Props) {
 
 
   return (
-    <div className="sm:flex flex-col md:px-20 lg:px-44 text-purple-950">
+    <div className="sm:flex flex-col md:px-20 lg:px-44 text-blue-900">
         I was born on May 19, 2003 in Kaposvár, in a family of musicians!
         My musical studies: I played the piano until 2016, in 2014 I won first place at the National Budapest Piano Competition.
         <br/>
@@ -29,7 +29,7 @@ export default function HunBio({}: Props) {
                 className="py-4 mx-auto w-64"
             />
         </div>
-
+        <br/>
         - Tóth Barnabás : Those who stayed (supporting role) 2018
         <br/>
         <br/>
