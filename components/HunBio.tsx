@@ -82,7 +82,7 @@ export default function HunBio({}: Props) {
       A nyelvtanulás rendkívül fontos számomra. Felsőfokú angolon és magyaron kívül a német nyelven és a franciámon is dolgozom napi szinten, hogy néhány év múlva jól beszélhessem őket.
       Tervem, hogy színészként is kamatoztathassam nyelvtudásomat.
       <br/><br/>
-      Családommal, 4 testvéremmel mai napig sok időt töltök, kisebb tesvéreimnek szüntelenül próbálok belátást nyújtani a színházi világba, gyakran viszem el őket főpróbáimra, előadásaimra. Rendszeresen járok kiskutyámmal futni, edzeni, nagyon szeretem a sportot és boldog vagyok, mert a skót egyetem nagy hangsúlyt fektet a mozgásra én pedig már hosszú ideje tervezem még komolyabban venni a színapdi mozgáskultúrám fejlesztését s az állóképességem növelését. A futás számomra akárcsak egy meditáció, sokszor verseket, szövegeket, darabokat memorizálok, mialatt körbe futom a Margitszigetet.
+      Családommal, 3 testvéremmel mai napig sok időt töltök, kisebb tesvéreimnek szüntelenül próbálok belátást nyújtani a színházi világba, gyakran viszem el őket főpróbáimra, előadásaimra. Rendszeresen járok kiskutyámmal futni, edzeni, nagyon szeretem a sportot és boldog vagyok, mert a skót egyetem nagy hangsúlyt fektet a mozgásra én pedig már hosszú ideje tervezem még komolyabban venni a színapdi mozgáskultúrám fejlesztését s az állóképességem növelését. A futás számomra akárcsak egy meditáció, sokszor verseket, szövegeket, darabokat memorizálok, mialatt körbe futom a Margitszigetet.
       Hobbim:
       kézműves tárgyak készítése, festeni, rajzolni, nemezelni, gyöngyöt fűzni mind nagyon szeretek s mindig találok új foglalkozást, amelyben alkotni tudok.
       <br/><br/>
