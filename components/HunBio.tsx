@@ -6,6 +6,17 @@ export default function HunBio({}: Props) {
     const divstyle = "p-2 rounded-2xl mt-5 ";
   return (
     <div className="sm:flex flex-col md:px-20 lg:px-44 text-blue-900">
+        <b className="font-bold text-black">Iskolai tanulmányok: </b>
+        Gimnáziumi tanulmányok-Kodály Zoltán Ének-Zenei AMI. és Gimnázium
+        2 év alatt összvonva 4 évet magántanulókémt vizsgáztam és érettségiztem <br/><br/>
+
+         <b className="font-bold text-black">Zeneiskola: </b>Ádám Jenő Zeneiskola
+        zongora, gitár
+        10 évesen Országos Zongoraversenyen 1. díjat nyertem<br/><br/>
+
+         <b className="font-bold text-black">Nyelvvizsga: </b>
+        2023-ban sikeres IELTS (7.5) felsőfokú angol nyelvvizsgát tettem.
+
         2019-2023 között szerepeim színházakban, filmekben
 
         <span className="flex justify-center font-bold text-black mt-10">Színház</span>
