@@ -2,7 +2,7 @@
 type Props = {}
 
 export default function HunBio({}: Props) {
-    const divstyle = " bg-gray-400/50 p-2 rounded-2xl mt-5 ";
+    const divstyle = "border border-gray-800/20 p-2 rounded-2xl mt-5 ";
   return (
     <div className="sm:flex flex-col md:px-20 lg:px-44 text-blue-900">
         2003 május 19.-én születtem Kaposváron, zenészcsaládban.

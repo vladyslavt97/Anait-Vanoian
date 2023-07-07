@@ -19,7 +19,7 @@ export default function Page({}: Props) {
   const selectedButton = "bg-blue-400/50 px-3 py-1 rounded-full drop-shadow-lg";
   
   return (
-    <div className="bg-gray-300 rounded-2xl m-2.5 p-4 h-screen flex flex-col justify-center gap-10">
+    <div className="bg-pink-50 rounded-2xl m-2.5 p-4 h-screen flex flex-col justify-center gap-10">
         <div>
           <div className="absolute top-20 flex flex-col justify-center w-[85vw]">
             <motion.h2 

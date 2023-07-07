@@ -12,7 +12,7 @@ export default function Page({}: Props) {
   const language = useStore((state: languagesState) => state.language);
 
   return (
-    <div className="bg-gray-300 rounded-2xl m-2.5 p-4 flex flex-col overflow-x-hidden">
+    <div className="bg-pink-50 rounded-2xl m-2.5 p-4 flex flex-col overflow-x-hidden">
       <div className=" flex flex-col gap-5 mt-20 items-center mb-10">
         <h1>{language === "hun" ? "Videók" : "Videos"}</h1>
         {videos.map((video, i) => (

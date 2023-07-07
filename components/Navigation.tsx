@@ -48,7 +48,7 @@ export default function Navigation({}: Props) {
             initial={{y:-270}}
             animate={{y:0}}
             transition={{duration:1}}
-            className=" h-[30%] bg-gradient-to-b from-green-700/80 to-green-900/50 w-full flex flex-col justify-center items-center gap-10 z-40 fixed top-0 rounded-bl-lg rounded-br-lg text-white"
+            className=" h-[30%] bg-gradient-to-b from-gray-700 to-gray-900 w-full flex flex-col justify-center items-center gap-10 z-40 fixed top-0 rounded-bl-lg rounded-br-lg text-white"
             >
               <motion.div
               initial={{x:-10, opacity:0}}

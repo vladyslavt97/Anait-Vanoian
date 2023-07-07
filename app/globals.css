@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 
-#thevideosdivs{
+/* #thevideosdivs{
   box-shadow: 0px 0px 30px #1f43287a;
-}
+} */
 
 body{
   overflow-x: hidden;
