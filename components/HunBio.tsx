@@ -21,7 +21,7 @@ export default function HunBio({}: Props) {
 
         <span className="flex justify-center font-bold text-black mt-10">Színház</span>
 
-        <Link href="https://www.youtube.com/watch?v=SGCUxyYyr6g" className="underline"><b className="font-bold text-black">Júlia</b> - “Rómeó és Júlia”, Pesti Magyar Színház - Eperjes Károly rendezésében </Link><br/>
+        <b className="font-bold text-black">Júlia</b> - “Rómeó és Júlia”, Pesti Magyar Színház - Eperjes Károly rendezésében <Link href="https://www.youtube.com/watch?v=SGCUxyYyr6g" className="underline">🎥</Link><br/>
 
         <b className="font-bold text-black">Cécile de Volanges</b> - “Veszedelmes Viszonyok” , Operett színház - Kiss Csaba rendezésében <br/>
 
@@ -49,6 +49,45 @@ export default function HunBio({}: Props) {
 
         Saját dalok, ének
 
+
+
+
+
+
+        Magamról:
+
+Kelemen Hanna vagyok, komolyzenész-pedagógus-műveszcsaládban születtem, mindkét szülőm hegedűművész - Zeneakadémiai tanár, mindegyik nagyszülőm klasszikus zenész, pedagógus.
+12 éves koromig zongoristának készültem, 13 éves koromtól Földessy Margit színitanodájába jártam, akit a mai napig tanáromnak tudhatok. 14 évesen Kölnbe költözött családunk, ott jártam iskolába és Kölni Dóm gyermekkórusában énekeltem.
+15-16 éves koromban elszerződtem az Attractive Models ügynökséghez Budapesten és sokat dolgoztam modellként.
+15 és 16 éves koromban kétszer 2 és fél hónapot Tokióban éltem (önállóan) modellként dolgoztam (Cameron Diaz ügynökségénél).
+Földessy Margit színitanodájában szerettem bele a színészetbe.
+A színház világával komolyan akkor találkoztam, amikor 15 évesen Eperjes Károly felkért Júlia szerepére.
+17 évesen volt az első premierem a Pesti Magyar Színházban Júliaként, amit 2022-ig játszottunk. 16 évesen magántanuló lettem, hogy a 4 évnyi gimnáziumot 2 év alatt letehessem az érettségivel együtt. 18-19 évesen ez idő alatt még 3 premierem
+volt: a “Veszedelmes Viszonyok”következett, (2022, rendező: Kiss Csaba), melyben Cécile szerepébe bújtam az Operett Színházban.
+Csinszka (film)szerepét játszhaKam Horgas Ádám Ady adaptációban: “Elfogyni az ölelésben” című filmben (2021-2022) a Madách Színházban. 2022-2023-ban Sztravinszkij: A Katona története színdarabban, a királykisasszony lehettem, amit eljátszottunk Magyarország 9 városának színházában s koncerttermeiben: Kaposvár, Veszprém, Szeged, Budapest-Zeneakadémia, Budapest-Magyar Zene Háza,s valamint Kolozsvár, Marosvásárhely, Csíkszereda, és Székelyudvarhely közönségének.
+2023-ban a Chicago Musicaljében (rendező: Eperjes Károly) Roxie szerepét játszottam a Soproni Színházban. 2020 óta számos film, sorozat, videoklip és reklám főszereplője lehettem:“Mire várunk?” (Csukás Márton, 2020), “Karaván” c. rövidfilm (Szabó Szonja, 2020), “Indulj el” (Szakács Gergő, 2021), “Hawlin”(Franciska Dalma, 2021), “Haloween” (TV reklám, 2021), “Ki vagy Te?” (RTL+ csatornán, 2022 június-augusztus, “Vörös” szerepe, “Majdnem Menyasszony” (Pacskovszky József, 2023 július).
+<br/><br/>
+Hálás vagyok színész tanáraim munkájának, akik ezalatt az időszak alatt segítettek:<br/>
+Földessy Margit, Eperjes Károly, Toroczkayné Lucia, Cserhalmi György, Salamon András, Túroczy Szabolcs és Kerekes Vica.
+<br/><br/>
+Büszke vagyok rá, hogy 2019-2022 között olyan színészekkel és rendezőkkel dolgozhattam, mint:<br/>
+Molnár Piroska, ifj. Vidnyánszky Attila, Eperjes Károly, Bezerédi Zoltán, Haumann Máté, Trokán Anna, Papadimitriu Athina, Kakassy Dóra, Botos Éva, Nagy Sándor, Soltézs Bözse, Peller Anna, Cseh, Dávid Péter, Janza Kata, Kubik Petra, Kocsis Dénes, Polyák Lilla Ascher Tamás
+<br/><br/>
+Az éneklés gyermekkorom óta az életem fontos része: többféle formációban énekelek jazz- fusion- gospel-könnyűzene stílusban olyan művészekkel, mint Szakcsi Lakatos Róbert, Sárközi Lajos jr. Most is több nagyszabású tervvel állok az idei nyári fesztiválok előtt több együttessel.
+Egyedül gyakran kísérem magam zongorán és gitáron. Minél több hangszeren szeretnék játszani, most épp dobolni kezdtem el. De ettől függetlenül semmi sem tesz boldogabbá, mint a közös zenélés és a színjátszás.
+<br/><br/>
+A nyelvtanulás rendkívül fontos számomra. Felsőfokú angolon és magyaron kívül a német nyelven és a franciámon is dolgozom napi szinten, hogy néhány év múlva jól beszélhessem őket.
+Tervem, hogy színészként is kamatoztathassam nyelvtudásomat.
+<br/><br/>
+Családommal, 4 testvéremmel mai napig sok időt töltök, kisebb tesvéreimnek szüntelenül próbálok belátást nyújtani a színházi világba, gyakran viszem el őket főpróbáimra, előadásaimra. Rendszeresen járok kiskutyámmal futni, edzeni, nagyon szeretem a sportot és boldog vagyok, mert a skót egyetem nagy hangsúlyt fektet a mozgásra én pedig már hosszú ideje tervezem még komolyabban venni a színapdi mozgáskultúrám fejlesztését s az állóképességem növelését. A futás számomra akárcsak egy meditáció, sokszor verseket, szövegeket, darabokat memorizálok, mialatt körbe futom a Margitszigetet.
+Hobbim:
+kézműves tárgyak készítése, festeni, rajzolni, nemezelni, gyöngyöt fűzni mind nagyon szeretek s mindig találok új foglalkozást, amelyben alkotni tudok.
+<br/><br/>
+Példaképeim:<br/>
+Judy Dench, angol színész. Drámái és Shakespear-i alakításai ikonikusak, színházban és filmben (Hollywood-i és művész filmekben) egyaránt intenzíven jelen van, emellett nagyon kedveli a magyar költészetet és irodalmat. Christoph Waltz, osztrák színész, azon kívül, hogy különleges színész tehetség, képes a színészetében kamatoztatni nyelvtudását.
+Stella Skarsgård, Depardieu-höz hasonlóan egyszerre az egyetemes, s az ő esetében a svéd kulturális örökség felemelésében s megismertetésében tett felbecsülhetetlen lépéseket.
+<br/><br/>
+Én - hozzájuk hasonlóan - a magyar kultúra, hagyomány és művészet örökség megőrzése és fejlesztése érdekében bízom abban, hogy sokat tudok hozzátenni a színházi világ, a filmművészet, a zene, zenés színházak lemezfelvételek, videoklippek és minden ehhez tartozó művészeti ágazat szenvedélyes művelésével!
 
     </div>
   )

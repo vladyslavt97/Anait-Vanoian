@@ -55,28 +55,28 @@ export default function Navigation({}: Props) {
               animate={{x:0, opacity:1}}
               transition={{duration:1, delay:0.4}}
               >
-                <Link href="/" onClick={e => toggleOpen(false)} className={pathname === "/" ? "bg-blue-400/50 px-2 py-1 rounded-full italic w-20 mx-auto font-bold" : "w-20 mx-auto font-mono"}>{language === "hun" ? "Kezdőlap" : "Home"}</Link>
+                <Link href="/" onClick={e => toggleOpen(false)} className={pathname === "/" ? "bg-red-400/80  px-2 py-1 rounded-full italic w-20 mx-auto font-bold" : "w-20 mx-auto font-mono"}>{language === "hun" ? "Kezdőlap" : "Home"}</Link>
               </motion.div>
               <motion.div
               initial={{x:-10, opacity:0}}
               animate={{x:0, opacity:1}}
               transition={{duration:1, delay:0.6}}
               >
-                <Link href="/biography" onClick={e => toggleOpen(false)} className={pathname === "/biography" ? "bg-blue-400/50 px-2 py-1 rounded-full italic w-20 mx-auto font-bold" : "w-20 mx-auto font-mono"}>{language === "hun" ? "Életrajz" : "Biography"}</Link>
+                <Link href="/biography" onClick={e => toggleOpen(false)} className={pathname === "/biography" ? "bg-red-400/80  px-2 py-1 rounded-full italic w-20 mx-auto font-bold" : "w-20 mx-auto font-mono"}>{language === "hun" ? "Életrajz" : "Biography"}</Link>
               </motion.div>
               <motion.div
               initial={{x:-20, opacity:0}}
               animate={{x:0, opacity:1}}
               transition={{duration:1, delay:0.8}}
               >
-                <Link href="/gallery" onClick={e => toggleOpen(false)} className={pathname === "/gallery" ? "bg-blue-400/50 px-2 py-1 rounded-full italic w-20 mx-auto font-bold" : "w-20 mx-auto font-mono"}>{language === "hun" ? "Képtár" : "Gallery"}</Link>
+                <Link href="/gallery" onClick={e => toggleOpen(false)} className={pathname === "/gallery" ? "bg-red-400/80  px-2 py-1 rounded-full italic w-20 mx-auto font-bold" : "w-20 mx-auto font-mono"}>{language === "hun" ? "Képtár" : "Gallery"}</Link>
               </motion.div>
               <motion.div
               initial={{x:-30, opacity:0}}
               animate={{x:0, opacity:1}}
               transition={{duration:1, delay:1}}
               >
-                <Link href="/videos" onClick={e => toggleOpen(false)} className={pathname === "/videos" ? "bg-blue-400/50 px-2 py-1 rounded-full italic w-20 mx-auto font-bold" : "w-20 mx-auto font-mono"}>{language === "hun" ? "Videók" : "Videos"}</Link>
+                <Link href="/videos" onClick={e => toggleOpen(false)} className={pathname === "/videos" ? "bg-red-400/80 px-2 py-1 rounded-full italic w-20 mx-auto font-bold" : "w-20 mx-auto font-mono"}>{language === "hun" ? "Videók" : "Videos"}</Link>
               </motion.div>
             </motion.div>
         }
