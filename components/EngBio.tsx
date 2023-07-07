@@ -3,7 +3,7 @@ type Props = {}
 
 export default function HunBio({}: Props) {
 
-    const divstyle = " bg-gray-400/50 p-2 rounded-2xl mt-5 ";
+    const divstyle = "rounded-2xl mt-5 ";
 
 
   return (
