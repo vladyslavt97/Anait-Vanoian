@@ -1,10 +1,10 @@
 import './globals.css'
-import { Vollkorn } from 'next/font/google'
+import { Assistant } from 'next/font/google'
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 
-const roboto = Vollkorn({ subsets: ['latin'], weight: ["400", "500"], style: ["italic", "normal"] })
+const roboto = Assistant({ subsets: ['latin'], weight: ["400", "500"], style: ["normal"] })
 
 export const metadata = {
   title: 'Hanna Kelemen',
@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} bg-gray-700 h-full overflow-x-hidden`}>
+      <body className={`${roboto.className} bg-gray-600 h-full overflow-x-hidden`}>
       <Header/>
         {children}
       <Footer/>

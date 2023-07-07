@@ -2,7 +2,7 @@
 type Props = {}
 
 export default function HunBio({}: Props) {
-    const divstyle = "border border-gray-800/20 p-2 rounded-2xl mt-5 ";
+    const divstyle = "p-2 rounded-2xl mt-5 ";
   return (
     <div className="sm:flex flex-col md:px-20 lg:px-44 text-blue-900">
         2003 május 19.-én születtem Kaposváron, zenészcsaládban.
@@ -22,7 +22,7 @@ export default function HunBio({}: Props) {
                 src="https://player.vimeo.com/video/456170189" frameBorder="0" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
                 title="video1"
-                className="py-4 mx-auto w-64"
+                className="mx-auto w-64"
             />
         </div>
         <br/>
@@ -35,7 +35,7 @@ export default function HunBio({}: Props) {
                 src="https://player.vimeo.com/video/398000995" frameBorder="0" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
                 title="video1"
-                className="py-4 mx-auto w-64"
+                className="mx-auto w-64"
             />
         </div>
 
@@ -45,7 +45,7 @@ export default function HunBio({}: Props) {
                 src="https://www.youtube.com/embed/j5MC0O7m4Zk" frameBorder="0" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
                 title="video1"
-                className="py-4 mx-auto w-64"
+                className="mx-auto w-64"
             />
         </div>
         <br/>
@@ -62,7 +62,7 @@ export default function HunBio({}: Props) {
                 src="https://www.youtube.com/embed/SGCUxyYyr6g" frameBorder="0" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
                 title="video1"
-                className="py-4 mx-auto w-64"
+                className="mx-auto w-64"
             />
         </div>
         <br/>
