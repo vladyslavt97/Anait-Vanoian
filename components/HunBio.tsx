@@ -5,51 +5,51 @@ type Props = {}
 export default function HunBio({}: Props) {
     const divstyle = "p-2 rounded-2xl mt-5 ";
   return (
-    <div className="sm:flex flex-col md:px-20 lg:px-44 text-blue-900">
+    <div className="sm:flex flex-col md:px-20 lg:px-44 text-black">
       <b className="font-bold text-black">Iskolai tanulmányok: </b>
       Gimnáziumi tanulmányok-Kodály Zoltán Ének-Zenei AMI. és Gimnázium
       2 év alatt összvonva 4 évet magántanulókémt vizsgáztam és érettségiztem <br/><br/>
 
-      <b className="font-bold text-black">Zeneiskola: </b>Ádám Jenő Zeneiskola
+      <b className="font-bold text-blue-900">Zeneiskola: </b>Ádám Jenő Zeneiskola
       zongora, gitár
       10 évesen Országos Zongoraversenyen 1. díjat nyertem<br/><br/>
 
-      <b className="font-bold text-black">Nyelvvizsga: </b>
+      <b className="font-bold text-blue-900">Nyelvvizsga: </b>
       2023-ban sikeres IELTS (7.5) felsőfokú angol nyelvvizsgát tettem.
 
       2019-2023 között szerepeim színházakban, filmekben
 
       <span className="flex justify-center font-bold text-black mt-10">Színház</span>
 
-      <b className="font-bold text-black">Júlia</b> - “Rómeó és Júlia”, Pesti Magyar Színház - Eperjes Károly rendezésében <Link href="https://www.youtube.com/watch?v=SGCUxyYyr6g" >🎥</Link><br/>
+      <b className="font-bold text-blue-900">Júlia</b> - “Rómeó és Júlia”, Pesti Magyar Színház - Eperjes Károly rendezésében <Link href="https://www.youtube.com/watch?v=SGCUxyYyr6g" >🎥</Link><br/>
 
-      <b className="font-bold text-black">Cécile de Volanges</b> - “Veszedelmes Viszonyok” , Operett színház - Kiss Csaba rendezésében <br/>
+      <b className="font-bold text-blue-900">Cécile de Volanges</b> - “Veszedelmes Viszonyok” , Operett színház - Kiss Csaba rendezésében <br/>
 
-      <b className="font-bold text-black">Roxie Hart</b> - “ Chicago”, Soproni Petőfi Színház - Eperjes Károly rendezésében <br/>
+      <b className="font-bold text-blue-900">Roxie Hart</b> - “ Chicago”, Soproni Petőfi Színház - Eperjes Károly rendezésében <br/>
 
-      <b className="font-bold text-black">Királylány</b> - “Sztravinszky: A Katona Története” országos turné - Ascher Tamás rendezésében 
+      <b className="font-bold text-blue-900">Királylány</b> - “Sztravinszky: A Katona Története” országos turné - Ascher Tamás rendezésében 
 
-      <span className="flex justify-center font-bold text-black mt-10">Filmszerepek</span>
+      <span className="flex justify-center font-bold text-blue-900 mt-10">Filmszerepek</span>
 
-      <b className="font-bold text-black">Csinszka</b> - “Elfogyni az Ölelésben”, színház-film, Madách színházban - Horgas Ádám rendezésében <br/>
+      <b className="font-bold text-blue-900">Csinszka</b> - “Elfogyni az Ölelésben”, színház-film, Madách színházban - Horgas Ádám rendezésében <br/>
 
-      <b className="font-bold text-black">Zoé</b> - “Karaván” ,kisfilm - Szabó Szonja rendezésében <br/>
+      <b className="font-bold text-blue-900">Zoé</b> - “Karaván” ,kisfilm - Szabó Szonja rendezésében <br/>
 
-      <b className="font-bold text-black">Vörös</b> - “Ki vagy te” - sorozat “ RTL+ <br/>
+      <b className="font-bold text-blue-900">Vörös</b> - “Ki vagy te” - sorozat “ RTL+ <br/>
 
-      <b className="font-bold text-black">Hanna</b> - “What are we waiting for?”kisfilm - Csukás Márton rendezésében <Link href="https://www.youtube.com/watch?v=j5MC0O7m4Zk" >🎥</Link> <br/>
+      <b className="font-bold text-blue-900">Hanna</b> - “What are we waiting for?”kisfilm - Csukás Márton rendezésében <Link href="https://www.youtube.com/watch?v=j5MC0O7m4Zk" >🎥</Link> <br/>
 
-      <b className="font-bold text-black">Orsi</b> - “Orsi és Tensinham” ,kisfilm - Szilágyi Fanny rendezésében <br/>
+      <b className="font-bold text-blue-900">Orsi</b> - “Orsi és Tensinham” ,kisfilm - Szilágyi Fanny rendezésében <br/>
 
-      <b className="font-bold text-black">Franciska</b>- “Vércsék”,kisfilm - Szabó Szonja rendezésében <br/>
+      <b className="font-bold text-blue-900">Franciska</b>- “Vércsék”,kisfilm - Szabó Szonja rendezésében <br/>
 
-      <b className="font-bold text-black">A model</b> - klip - Groove Armada együttes - Edge of the horizon, Theano Kapareli rendezésében <br/>
+      <b className="font-bold text-blue-900">A model</b> - klip - Groove Armada együttes - Edge of the horizon, Theano Kapareli rendezésében <br/>
       
-      <b className="font-bold text-black">A lány: </b> - klip- “Hawlin”- Franciska Dalma rendezésében<br/><br/>
+      <b className="font-bold text-blue-900">A lány: </b> - klip- “Hawlin”- Franciska Dalma rendezésében<br/><br/>
 
       Első nagyjátékfilm kosztümös főszerepem jelenleg forgatom:<br/>
 
-      <b className="font-bold text-black">Főszerep “Majdnem Menyasszony”</b>, nagy játékfilm - Pacskovszky József rendezésében<br/>
+      <b className="font-bold text-blue-900">Főszerep “Majdnem Menyasszony”</b>, nagy játékfilm - Pacskovszky József rendezésében<br/>
       <br/><br/>
       <Link href="https://www.facebook.com/watch/?ref=search&v=1903165816502570&external_log_id=2e33efa1-a5ca-417d-b53e-6e749735b4b0&q=pesti%20magyar%20szinhaz%20hanna%20kelemen" >🎥</Link> Saját dalok, ének
       <br/><br/><br/><br/>
@@ -58,7 +58,7 @@ export default function HunBio({}: Props) {
 
 
 
-      <b className="font-bold text-black">Magamról:</b> <br/><br/>
+      <b className="font-bold text-blue-900">Magamról:</b> <br/><br/>
       Kelemen Hanna vagyok, komolyzenész-pedagógus-műveszcsaládban születtem, mindkét szülőm hegedűművész - Zeneakadémiai tanár, mindegyik nagyszülőm klasszikus zenész, pedagógus.
       12 éves koromig zongoristának készültem, 13 éves koromtól Földessy Margit színitanodájába jártam, akit a mai napig tanáromnak tudhatok. 14 évesen Kölnbe költözött családunk, ott jártam iskolába és Kölni Dóm gyermekkórusában énekeltem.
       15-16 éves koromban elszerződtem az Attractive Models ügynökséghez Budapesten és sokat dolgoztam modellként.
@@ -86,7 +86,7 @@ export default function HunBio({}: Props) {
       Hobbim:
       kézműves tárgyak készítése, festeni, rajzolni, nemezelni, gyöngyöt fűzni mind nagyon szeretek s mindig találok új foglalkozást, amelyben alkotni tudok.
       <br/><br/>
-      <b className="font-bold text-black">Példaképeim:</b><br/>
+      <b className="font-bold text-blue-900">Példaképeim:</b><br/>
       Judy Dench, angol színész. Drámái és Shakespear-i alakításai ikonikusak, színházban és filmben (Hollywood-i és művész filmekben) egyaránt intenzíven jelen van, emellett nagyon kedveli a magyar költészetet és irodalmat. Christoph Waltz, osztrák színész, azon kívül, hogy különleges színész tehetség, képes a színészetében kamatoztatni nyelvtudását.
       Stella Skarsgård, Depardieu-höz hasonlóan egyszerre az egyetemes, s az ő esetében a svéd kulturális örökség felemelésében s megismertetésében tett felbecsülhetetlen lépéseket.
       <br/><br/>
