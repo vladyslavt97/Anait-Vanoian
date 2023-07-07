@@ -1,5 +1,4 @@
 "use client"
-import Bio from "@/components/Bio";
 import { useStore } from "@/components/State";
 import { motion } from "framer-motion";
 import Image from "next/image";
