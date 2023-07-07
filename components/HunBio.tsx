@@ -21,7 +21,7 @@ export default function HunBio({}: Props) {
 
       <span className="flex justify-center font-bold text-black mt-10">Színház</span>
 
-      <b className="font-bold text-black">Júlia</b> - “Rómeó és Júlia”, Pesti Magyar Színház - Eperjes Károly rendezésében <Link href="https://www.youtube.com/watch?v=SGCUxyYyr6g" className="underline">🎥</Link><br/>
+      <b className="font-bold text-black">Júlia</b> - “Rómeó és Júlia”, Pesti Magyar Színház - Eperjes Károly rendezésében <Link href="https://www.youtube.com/watch?v=SGCUxyYyr6g" >🎥</Link><br/>
 
       <b className="font-bold text-black">Cécile de Volanges</b> - “Veszedelmes Viszonyok” , Operett színház - Kiss Csaba rendezésében <br/>
 
@@ -37,7 +37,7 @@ export default function HunBio({}: Props) {
 
       <b className="font-bold text-black">Vörös</b> - “Ki vagy te” - sorozat “ RTL+ <br/>
 
-      <Link href="https://www.youtube.com/watch?v=j5MC0O7m4Zk" className="underline"><b className="font-bold text-black">Hanna</b> - “What are we waiting for?”kisfilm - Csukás Márton rendezésében</Link> <br/>
+      <b className="font-bold text-black">Hanna</b> - “What are we waiting for?”kisfilm - Csukás Márton rendezésében <Link href="https://www.youtube.com/watch?v=j5MC0O7m4Zk" >🎥</Link> <br/>
 
       <b className="font-bold text-black">Orsi</b> - “Orsi és Tensinham” ,kisfilm - Szilágyi Fanny rendezésében <br/>
 
@@ -51,8 +51,7 @@ export default function HunBio({}: Props) {
 
       <b className="font-bold text-black">Főszerep “Majdnem Menyasszony”</b>, nagy játékfilm - Pacskovszky József rendezésében<br/>
       <br/><br/>
-
-      Saját dalok, ének
+      <Link href="https://www.facebook.com/watch/?ref=search&v=1903165816502570&external_log_id=2e33efa1-a5ca-417d-b53e-6e749735b4b0&q=pesti%20magyar%20szinhaz%20hanna%20kelemen" >🎥</Link> Saját dalok, ének
       <br/><br/><br/><br/>
 
 
