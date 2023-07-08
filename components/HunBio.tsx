@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 type Props = {}
 
@@ -11,7 +13,7 @@ export default function HunBio({}: Props) {
       2 év alatt összvonva 4 évet magántanulókémt vizsgáztam és érettségiztem <br/><br/>
 
       <b className="font-bold text-blue-900">Zeneiskola: </b>Ádám Jenő Zeneiskola
-      zongora, gitár
+      zongora, gitár <br/>
       10 évesen Országos Zongoraversenyen 1. díjat nyertem<br/><br/>
 
       <b className="font-bold text-blue-900">Nyelvvizsga: </b>
@@ -29,8 +31,21 @@ export default function HunBio({}: Props) {
 
       <b className="font-bold text-blue-900">Királylány</b> - “Sztravinszky: A Katona Története” országos turné - Ascher Tamás rendezésében 
 
-      <span className="flex justify-center font-bold text-blue-900 mt-10">Filmszerepek</span>
 
+
+      <span className="flex justify-center font-bold text-blue-900 mt-10">Filmszerepek</span>
+      <motion.div
+      initial={{opacity:0, 
+        x:5, y:5
+      }}
+      animate={{opacity:1,
+        x:0, y:0
+      }}
+      transition={{duration:1, delay: 0.2}}
+      className="relative top-0 mx-2.5 w-full sm:w-full md:left-40 z-10 flex"
+      >
+        <Image src="/gallery/modelling/56.jpg" alt="" width={300} height={300} priority={true} className="rounded-2xl shadow-white my-5 w-[290px]"/>
+      </motion.div>
       <b className="font-bold text-blue-900">Csinszka</b> - “Elfogyni az Ölelésben”, színház-film, Madách színházban - Horgas Ádám rendezésében <br/>
 
       <b className="font-bold text-blue-900">Zoé</b> - “Karaván” ,kisfilm - Szabó Szonja rendezésében <br/>

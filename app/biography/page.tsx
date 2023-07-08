@@ -27,7 +27,7 @@ export default function Page({}: Props) {
       transition={{duration:1, delay: 0.2}}
       className="relative top-0 mx-2.5 w-full sm:w-full md:left-40 z-10 flex"
       >
-        <Image src="/gallery/modelling/56.jpg" alt="" width={300} height={300} priority={true} className="rounded-2xl shadow-white my-5 w-[290px]"/>
+        <Image src="/1.jpg" alt="" width={300} height={300} priority={true} className="rounded-2xl shadow-white my-5 w-[290px]"/>
       </motion.div>
         {language === "hun" ? <HunBio/> : <EngBio/>}
     </div>
