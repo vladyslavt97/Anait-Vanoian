@@ -9,6 +9,11 @@ interface languagesState {
   setLanguage: (language: string) => void;
 }
 
+interface openState {
+    open: false;
+  setOpen: (open: boolean) => void;
+}
+
 export default function LanguageSwitch({}: Props) {
 
   const engBio = () => {
@@ -20,8 +25,9 @@ export default function LanguageSwitch({}: Props) {
   }
  
   const setLanguage = useStore((state: languagesState) => state.setLanguage);
+  const open = useStore((state: openState) => state.open);
   return (
-    <div className="absolute left-8 top-3 shadow-lg z-10">
+    <div className={`absolute left-8 top-3 shadow-lg ${open ? "z-10" : "z-50"}`}>
         <Box>
             <ButtonGroup size="small" aria-label="small button group">
                 <Button onClick={hunBio} key="one" sx={{ color: "black" }}>HUN</Button>

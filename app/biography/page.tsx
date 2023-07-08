@@ -1,8 +1,9 @@
 "use client"
-
+import Image from "next/image";
 import EngBio from "@/components/EngBio";
 import HunBio from "@/components/HunBio";
 import { useStore } from "@/components/State";
+import { motion } from "framer-motion";
 
 type Props = {}
 
@@ -15,10 +16,20 @@ export default function Page({}: Props) {
   
   return (
     <div className="bg-pink-50 rounded-2xl m-2.5 p-4 ">
-        {language === "hun" && <h1 className="font-bold text-center py-2 text-xl text-black mt-10" style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}>Életrajz</h1>}
-        {language === "eng" && <h1 className="font-bold text-center py-2 text-xl text-black mt-10" style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}>Biography</h1>}
-        {language === "hun" && <HunBio/>}
-        {language === "eng" && <EngBio/>}
+        <motion.div
+      initial={{opacity:0, 
+        x:5, y:5
+      }}
+      animate={{opacity:1,
+        x:0, y:0
+      }}
+      transition={{duration:1, delay: 0.2}}
+      className="relative top-0 mx-2.5 w-full sm:w-full md:left-40 z-10 flex"
+      >
+        <Image src="/gallery/modelling/56.jpg" alt="" width={300} height={300} priority={true} className="rounded-2xl shadow-white relative top-12 w-[290px]"/>
+      </motion.div>
+        <h1 className="font-bold text-center py-2 text-xl text-black mt-14" style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}>{language === "hun" ? "Életrajz" : "Biography"}</h1>
+        {language === "hun" ? <HunBio/> : <EngBio/>}
     </div>
   )
 }
