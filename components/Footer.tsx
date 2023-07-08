@@ -11,7 +11,7 @@ export default function Footer({}: Props) {
   return (
     <div className="relative bottom-0 bg-white m-3 rounded-lg flex flex-col gap-5 p-3 shadow-xl">
       <div>
-        <h3 className="italic text-gray-700">{language === "eng" ? "Get in touch:" : "Felveszi a kapcsolatot:"}</h3>
+        <h3 className="italic text-gray-700">{language === "eng" ? "Get in touch:" : "Kapcsolatfelvétel:"}</h3>
         <h3 className="text-gray-700 font-mono text-sm">hannakelemen1@gmail.com</h3>
       </div>
       

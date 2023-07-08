@@ -19,9 +19,9 @@ export default function HunBio({}: Props) {
       <b className="font-bold text-blue-900">Nyelvvizsga: </b>
       2023-ban sikeres IELTS (7.5) felsőfokú angol nyelvvizsgát tettem.
 
-      2019-2023 között szerepeim színházakban, filmekben
-
       <span className="flex justify-center font-bold text-black mt-10">Színház</span>
+      <br/>
+      2019-2023 között szerepeim színházakban, filmekben
 
       <Link href="https://www.youtube.com/watch?v=SGCUxyYyr6g" className="underline"><b className="font-bold text-blue-900">Júlia</b> - “Rómeó és Júlia”, Pesti Magyar Színház - Eperjes Károly rendezésében</Link><br/>
 
