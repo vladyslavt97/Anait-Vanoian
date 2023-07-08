@@ -25,7 +25,7 @@ export default function HunBio({}: Props) {
 
       <Link href="https://www.youtube.com/watch?v=SGCUxyYyr6g" className="underline"><b className="font-bold text-blue-900">Júlia</b> - “Rómeó és Júlia”, Pesti Magyar Színház - Eperjes Károly rendezésében</Link><br/>
 
-      <b className="font-bold text-blue-900">Cécile de Volanges</b> - “Veszedelmes Viszonyok” , Operett színház - Kiss Csaba rendezésében <br/>
+      <Link href="https://www.youtube.com/watch?v=JfUUUcPDKJk" className="underline"><b className="font-bold text-blue-900">Cécile de Volanges</b> - “Veszedelmes Viszonyok” , Operett színház - Kiss Csaba rendezésében </Link><br/>
 
       <b className="font-bold text-blue-900">Roxie Hart</b> - “ Chicago”, Soproni Petőfi Színház - Eperjes Károly rendezésében <br/>
 
@@ -66,7 +66,7 @@ export default function HunBio({}: Props) {
 
       <b className="font-bold text-blue-900">Főszerep “Majdnem Menyasszony”</b>, nagy játékfilm - Pacskovszky József rendezésében<br/>
       <br/><br/>
-      <Link href="https://youtu.be/d-5jBKAcYR8" className="underline"> Saját dalok, ének</Link>
+      <Link href="https://www.youtube.com/watch?v=d-5jBKAcYR8" className="underline"> Saját dalok, ének</Link>
       <br/><br/><br/><br/>
 
 
