@@ -21,7 +21,7 @@ export default function Navigation({}: Props) {
     const open = useStore((state: openState) => state.open);
     const setOpen = useStore((state: openState) => state.setOpen);
     const styling = "w-7 bg-blue-950 h-0.5";
-    const stylingOpen = "w-7 bg-white h-0.5";
+    const stylingOpen = "w-7 bg-blue-100 h-0.5";
 
     const toggleOpen = (value: boolean) => {
         setOpen(value);
@@ -32,7 +32,7 @@ export default function Navigation({}: Props) {
         <div className={`flex flex-col gap-1.5 right-8 top-5 z-50 ${open ? "fixed" : "absolute"}`} onClick={e => toggleOpen(!open)}>
             <motion.div 
             animate={{rotate: open ? -45 : 0, y: open ? 14 : 0}}
-            className={styling}/>
+            className={open ? stylingOpen : styling}/>
             <motion.div 
             animate={{opacity: open ? 0 : 1}}
                 transition={{ duration: 0.1 }}
@@ -42,7 +42,7 @@ export default function Navigation({}: Props) {
                 rotate: open ? 45 : 0,
                 y: open ? -1.5 : 0,
             }}
-            className={styling}/>
+            className={open ? stylingOpen : styling}/>
         </div>
         {open && 
             <motion.div 
