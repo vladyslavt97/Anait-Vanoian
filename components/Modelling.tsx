@@ -34,7 +34,7 @@ export default function Modelling({}: Props) {
   },[])
   
   return (
-    <>
+    <div className="md:w-[700px]">
     {imageUrls.length === 0 ? 
       <div className="flex justify-center items-center">
         <ClipLoader color="#36d7b7" />
@@ -55,6 +55,6 @@ export default function Modelling({}: Props) {
         ))}
       </Swiper>
       }
-    </>
+    </div>
   );
 }

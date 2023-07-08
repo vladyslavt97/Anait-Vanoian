@@ -13,7 +13,7 @@ export default function Page({}: Props) {
 
   return (
     <div className="bg-pink-50 rounded-2xl m-2.5 p-4 flex flex-col overflow-x-hidden min-h-[87vh] justify-center">
-      <h1 className="text-center mt-14">{language === "hun" ? "Videók" : "Videos"}</h1>
+      <h1 className="text-center font-bold text-lg italic mt-14">{language === "hun" ? "Videók" : "Videos"}</h1>
       <div className=" flex flex-col gap-5 mt-5 md:mt-10 items-center mb-10 md:flex-row md:flex-wrap md:justify-center">
         {videos.map((video, i) => (
           <div key={i} className="xl:w-1/4">
@@ -29,7 +29,7 @@ export default function Page({}: Props) {
       </div>
 
 
-        <h1 className="text-center mt-14 md:mt-32">{language === "hun" ? "Interjúk" : "Interviews"}</h1>
+        <h1 className="text-center font-bold text-lg italic mt-14 md:mt-32">{language === "hun" ? "Interjúk" : "Interviews"}</h1>
         <div className=" flex flex-col gap-5 mt-5 md:mt-10 items-center mb-10 md:flex-row md:flex-wrap md:justify-center">
         {interviews.map((video, i) => (
           <div key={i}>

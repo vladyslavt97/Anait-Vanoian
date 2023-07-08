@@ -34,7 +34,7 @@ export default function Page({}: Props) {
               <button onClick={e => setWhichGallery('t')} className={`${whichGallery === "t" ? selectedButton : buttons}`}>{language === "hun" ? "Színházak" : "Theater"}</button>
             </div>
           </div>
-          <div className="relative top-10 w-">
+          <div className="relative top-10 md:flex justify-center">
             {whichGallery === "f" && <Films/>}
             {whichGallery === "m" && <Modelling/>}
             {whichGallery === "t" && <Theater/>}
