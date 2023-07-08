@@ -44,7 +44,7 @@ export default function HunBio({}: Props) {
       transition={{duration:1, delay: 0.2}}
       className="relative w-full flex justify-center"
       >
-        <Image src="/gallery/modelling/56.jpg" alt="" width={300} height={300} priority={true} className="rounded-2xl shadow-white my-5 w-[290px]"/>
+        <Image src="/gallery/modelling/72.jpg" alt="" width={300} height={300} priority={true} className="rounded-2xl shadow-white my-5 w-[290px]"/>
       </motion.div>
       <b className="font-bold text-blue-900">Csinszka</b> - “Elfogyni az Ölelésben”, színház-film, Madách színházban - Horgas Ádám rendezésében <br/>
 
