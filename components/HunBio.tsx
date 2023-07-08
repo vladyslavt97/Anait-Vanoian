@@ -51,7 +51,7 @@ export default function HunBio({}: Props) {
 
       <b className="font-bold text-blue-900">Főszerep “Majdnem Menyasszony”</b>, nagy játékfilm - Pacskovszky József rendezésében<br/>
       <br/><br/>
-      <Link href="https://www.facebook.com/watch/?ref=search&v=1903165816502570&external_log_id=2e33efa1-a5ca-417d-b53e-6e749735b4b0&q=pesti%20magyar%20szinhaz%20hanna%20kelemen" className="underline"> Saját dalok, ének</Link>
+      <Link href="https://youtu.be/d-5jBKAcYR8" className="underline"> Saját dalok, ének</Link>
       <br/><br/><br/><br/>
 
 

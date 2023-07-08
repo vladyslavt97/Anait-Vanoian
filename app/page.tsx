@@ -11,7 +11,7 @@ export default function Home() {
   const language = useStore((state: languagesState) => state.language);
   return (
     <main 
-    className="bg-[#fff8f9] rounded-2xl m-2.5 p-4"
+    className="bg-[#fff8f9] rounded-2xl m-2.5 p-4 min-h-[87vh]"
     >
       <motion.h1 
       initial={{opacity:0}}
