@@ -65,7 +65,7 @@ export default function HunBio({}: Props) {
       Első nagyjátékfilm kosztümös főszerepem jelenleg forgatom:<br/>
 
       <b className="font-bold text-blue-900">Főszerep “Majdnem Menyasszony”</b>, nagy játékfilm - Pacskovszky József rendezésében<br/>
-      <br/><br/>
+      <br/>
       <Link href="https://www.youtube.com/watch?v=d-5jBKAcYR8" className="underline"> Saját dalok, ének</Link>
       <br/><br/><br/><br/>
 
@@ -117,7 +117,7 @@ export default function HunBio({}: Props) {
       Stella Skarsgård, Depardieu-höz hasonlóan egyszerre az egyetemes, s az ő esetében a svéd kulturális örökség felemelésében s megismertetésében tett felbecsülhetetlen lépéseket.
       <br/><br/>
       Én - hozzájuk hasonlóan - a magyar kultúra, hagyomány és művészet örökség megőrzése és fejlesztése érdekében bízom abban, hogy sokat tudok hozzátenni a színházi világ, a filmművészet, a zene, zenés színházak lemezfelvételek, videoklippek és minden ehhez tartozó művészeti ágazat szenvedélyes művelésével!
-
+      <br/><br/>
     </div>
   )
 }
