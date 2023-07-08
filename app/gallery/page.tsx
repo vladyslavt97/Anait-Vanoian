@@ -29,9 +29,9 @@ export default function Page({}: Props) {
               className="text-center font-bold text-lg italic"> {language === "hun" ? "Képtár" : "Gallery"}
             </motion.h2>
             <div className="flex flex-row justify-center items-center gap-5 my-5">
-              <button onClick={e => setWhichGallery('m')} className={`${whichGallery === "m" ? selectedButton : buttons}`}>{language === "hun" ? "Modellezés" : "Modelling"}</button>
-              <button onClick={e => setWhichGallery('t')} className={`${whichGallery === "t" ? selectedButton : buttons}`}>{language === "hun" ? "Színház" : "Theater"}</button>
+              <button onClick={e => setWhichGallery('m')} className={`${whichGallery === "m" ? selectedButton : buttons}`}>{language === "hun" ? "Model képek" : "Modelling"}</button>
               <button onClick={e => setWhichGallery('f')} className={`${whichGallery === "f" ? selectedButton : buttons}`}>{language === "hun" ? "Filmek" : "Films"}</button>
+              <button onClick={e => setWhichGallery('t')} className={`${whichGallery === "t" ? selectedButton : buttons}`}>{language === "hun" ? "Színházak" : "Theater"}</button>
             </div>
           </div>
           <div className="relative top-10">

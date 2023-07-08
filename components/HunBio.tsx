@@ -6,7 +6,7 @@ export default function HunBio({}: Props) {
     const divstyle = "p-2 rounded-2xl mt-5 ";
   return (
     <div className="sm:flex flex-col md:px-20 lg:px-44 text-black">
-      <b className="font-bold text-black">Iskolai tanulmányok: </b>
+      <b className="font-bold text-blue-900">Iskolai tanulmányok: </b>
       Gimnáziumi tanulmányok-Kodály Zoltán Ének-Zenei AMI. és Gimnázium
       2 év alatt összvonva 4 évet magántanulókémt vizsgáztam és érettségiztem <br/><br/>
 
@@ -21,7 +21,7 @@ export default function HunBio({}: Props) {
 
       <span className="flex justify-center font-bold text-black mt-10">Színház</span>
 
-      <b className="font-bold text-blue-900">Júlia</b> - “Rómeó és Júlia”, Pesti Magyar Színház - Eperjes Károly rendezésében <Link href="https://www.youtube.com/watch?v=SGCUxyYyr6g" >🎥</Link><br/>
+      <Link href="https://www.youtube.com/watch?v=SGCUxyYyr6g" className="underline"><b className="font-bold text-blue-900">Júlia</b> - “Rómeó és Júlia”, Pesti Magyar Színház - Eperjes Károly rendezésében</Link><br/>
 
       <b className="font-bold text-blue-900">Cécile de Volanges</b> - “Veszedelmes Viszonyok” , Operett színház - Kiss Csaba rendezésében <br/>
 
@@ -37,7 +37,7 @@ export default function HunBio({}: Props) {
 
       <b className="font-bold text-blue-900">Vörös</b> - “Ki vagy te” - sorozat “ RTL+ <br/>
 
-      <b className="font-bold text-blue-900">Hanna</b> - “What are we waiting for?”kisfilm - Csukás Márton rendezésében <Link href="https://www.youtube.com/watch?v=j5MC0O7m4Zk" >🎥</Link> <br/>
+      <Link href="https://www.youtube.com/watch?v=j5MC0O7m4Zk" className="underline"><b className="font-bold text-blue-900">Hanna</b> - “What are we waiting for?”kisfilm - Csukás Márton rendezésében</Link> <br/>
 
       <b className="font-bold text-blue-900">Orsi</b> - “Orsi és Tensinham” ,kisfilm - Szilágyi Fanny rendezésében <br/>
 
@@ -51,7 +51,7 @@ export default function HunBio({}: Props) {
 
       <b className="font-bold text-blue-900">Főszerep “Majdnem Menyasszony”</b>, nagy játékfilm - Pacskovszky József rendezésében<br/>
       <br/><br/>
-      <Link href="https://www.facebook.com/watch/?ref=search&v=1903165816502570&external_log_id=2e33efa1-a5ca-417d-b53e-6e749735b4b0&q=pesti%20magyar%20szinhaz%20hanna%20kelemen" >🎥</Link> Saját dalok, ének
+      <Link href="https://www.facebook.com/watch/?ref=search&v=1903165816502570&external_log_id=2e33efa1-a5ca-417d-b53e-6e749735b4b0&q=pesti%20magyar%20szinhaz%20hanna%20kelemen" className="underline"> Saját dalok, ének</Link>
       <br/><br/><br/><br/>
 
 
