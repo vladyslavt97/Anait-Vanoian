@@ -42,7 +42,7 @@ export default function HunBio({}: Props) {
         x:0, y:0
       }}
       transition={{duration:1, delay: 0.2}}
-      className="relative top-0 mx-2.5 w-full sm:w-full md:left-40 z-10 flex"
+      className="relative w-full flex justify-center"
       >
         <Image src="/gallery/modelling/56.jpg" alt="" width={300} height={300} priority={true} className="rounded-2xl shadow-white my-5 w-[290px]"/>
       </motion.div>
@@ -78,9 +78,9 @@ export default function HunBio({}: Props) {
         x:0, y:0
       }}
       transition={{duration:1, delay: 0.2}}
-      className="relative top-0 mx-2.5 w-full sm:w-full md:left-40 z-10 flex"
+      className="w-full flex justify-center"
       >
-        <Image src="/slovenia.jpeg" alt="" width={300} height={300} priority={true} className="rounded-2xl shadow-white my-5 w-[290px]"/>
+        <Image src="/slovenia.jpeg" alt="" width={300} height={300} priority={true} className="rounded-2xl shadow-white my-5 w-[290px] md:w-[400px]"/>
       </motion.div>
 
 
