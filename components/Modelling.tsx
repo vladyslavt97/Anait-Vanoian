@@ -33,6 +33,7 @@ export default function Modelling({}: Props) {
       });
   },[])
   
+  
   return (
     <div className="md:w-[700px]">
     {imageUrls.length === 0 ? 
