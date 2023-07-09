@@ -25,13 +25,20 @@ export default function Page({}: Props) {
   
   return (
     <div className="bg-pink-50 rounded-2xl m-2.5 p-4 min-h-[97vh]">
-      <div className="flex flex-col gap-10 relative top-20">
-      {posts.map(post =>(
+      <div className="flex flex-col gap-10 relative top-20 mb-20">
+      {posts.map(post =>{
+        const isVideo = post.media_url.includes("mp4");
+        
+        return (
         <div key={post.id} className="rounded-xl bg-white flex flex-col justify-center items-center">
-          <Image src={post.media_url} alt={post.id} width={100} height={100} className="rounded-lg"/>
-          <h1>{post?.caption}</h1>
+          {!isVideo ? 
+          <img src={post.media_url} alt={post.id} className="rounded-lg"/>
+          : 
+          <video controls src={post.media_url}/>}
+        <h1>{post?.caption}</h1>
         </div>
-      ))}
+          );
+      })}
       </div>
     </div>
   )
