@@ -21,7 +21,5 @@ burger white!!!
 
 behind the sense page.
 
-
 //
-setup instagram api route for the behind the scenes page.
 create three folders for the moddeling and check the other galleries.
