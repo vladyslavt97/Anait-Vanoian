@@ -17,7 +17,7 @@ export default function Page({}: Props) {
     fetch('/api/instagram_posts')
         .then(response => response.json())
         .then(data => {
-            setPosts(data.feed.data)
+            setPosts(data.filtered)
         })
         .catch(error => {
             console.error(error);
