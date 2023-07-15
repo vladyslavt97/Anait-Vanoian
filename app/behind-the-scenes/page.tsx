@@ -41,6 +41,18 @@ export default function Page({}: Props) {
       <div className="flex flex-col gap-10 relative top-20 mb-20">
       {posts.map(post =>{
         const isVideo = post.media_url.includes("mp4");
+        // 
+        // let att = post.caption.indexOf("@");
+        // let space = post.caption.indexOf(" ", att);
+        // console.log(space);
+        
+        // const partBefore = post.caption.slice(0, att)
+        // const partAfter = post.caption.slice(att, space)
+        // const partAftert = post.caption.slice(space)
+        // console.log(partBefore);
+        
+        
+
         
         return (
         <div key={post.id} className="rounded-xl bg-white max-w-[400px] flex flex-col justify-center items-center p-4">
@@ -49,6 +61,12 @@ export default function Page({}: Props) {
           : 
           <video controls src={post.media_url} className="rounded-xl"/>}
         <h1>{post?.caption}</h1>
+        {/* <div className=" text-left flex flex-col justify-start items-start">
+            <h1>{partBefore}</h1>
+            <h1 className="text-blue-600">{partAfter}</h1>
+            <h2>{partAftert}</h2>
+        </div> */}
+        
         </div>
           );
       })}

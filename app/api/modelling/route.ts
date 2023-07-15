@@ -3,19 +3,16 @@ import supabase from "@/lib/supabase";
 function extractNumberFromUrl(url: any) {
   const regex = /\/(\d+)\.\w+$/;
   const match = url.match(regex);
-  
   if (match) {
     const numberString = match[1];
     return parseInt(numberString);
   }
-  
-  return 0; // Return 0 if no number is found
+  return 0;
 }
 
 function sortByNumberBeforeExtension(a:any, b:any) {
   const numberA = extractNumberFromUrl(a);
   const numberB = extractNumberFromUrl(b);
-
   return numberA - numberB;
 }
 
@@ -81,6 +78,8 @@ export async function GET(request: Request) {
 
     // sorting
     publicUrls1.sort(sortByNumberBeforeExtension);
+
+    //creating a new array
     publicUrls.push(...publicUrls1)
     publicUrls.push(...publicUrls2)
     publicUrls.push(...publicUrls3)
