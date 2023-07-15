@@ -50,8 +50,6 @@ export default function Page({}: Props) {
         // const partAfter = post.caption.slice(att, space)
         // const partAftert = post.caption.slice(space)
         // console.log(partBefore);
-        
-        
 
         
         return (
