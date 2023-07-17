@@ -31,7 +31,6 @@ export default function Home() {
       }}
       transition={{duration:2, delay: 0.2}}
       className="mx-2.5 w-full z-10"
-      // sm:w-full md:left-40
       >
         <Image src="/hanna.jpeg" alt="" width={300} height={300} priority={true} className="rounded-2xl shadow-white"/>
       </motion.div>

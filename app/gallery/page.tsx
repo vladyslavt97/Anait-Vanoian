@@ -15,8 +15,8 @@ export default function Page({}: Props) {
   const language = useStore((state: languagesState) => state.language);
 
   const [whichGallery, setWhichGallery] = useState("m");
-  const buttons = "bg-gray-400 px-3 py-1 rounded-full drop-shadow-lg md:text-lg";
-  const selectedButton = "bg-red-400/80 px-3 py-1 rounded-full drop-shadow-lg md:text-lg";
+  const buttons = "bg-gray-400 px-3 py-1 rounded-full drop-shadow-lg md:text-lg mx-3";
+  const selectedButton = "bg-red-400/80 px-3 py-1 rounded-full drop-shadow-lg md:text-lg mx-3";
   
   return (
     <div className="bg-pink-50 rounded-2xl m-2.5 p-4 h-screen flex flex-col justify-center">
@@ -29,9 +29,14 @@ export default function Page({}: Props) {
               className="text-center font-bold text-lg italic"> {language === "hun" ? "Képtár" : "Gallery"}
             </motion.h2>
             <div className="flex flex-row justify-center items-center gap-5 my-5">
+              <motion.div 
+              initial={{opacity:0}}
+              animate={{opacity:1}}
+              transition={{duration:2, delay: 1}}>
               <button onClick={e => setWhichGallery('m')} className={`${whichGallery === "m" ? selectedButton : buttons}`}>{language === "hun" ? "Model képek" : "Modelling"}</button>
               <button onClick={e => setWhichGallery('f')} className={`${whichGallery === "f" ? selectedButton : buttons}`}>{language === "hun" ? "Filmek" : "Films"}</button>
               <button onClick={e => setWhichGallery('t')} className={`${whichGallery === "t" ? selectedButton : buttons}`}>{language === "hun" ? "Színházak" : "Theater"}</button>
+               </motion.div>
             </div>
           </div>
           <div className="relative top-10 md:flex justify-center">

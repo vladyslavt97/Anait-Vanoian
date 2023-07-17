@@ -7,7 +7,11 @@ type Props = {}
 export default function HunBio({}: Props) {
     const divstyle = "p-2 rounded-2xl mt-5 ";
   return (
-    <div className="sm:flex flex-col md:px-20 lg:px-44 text-black">
+    <motion.div 
+    initial={{opacity:0}}
+      animate={{opacity:1}}
+      transition={{duration:1, delay: 0.2}}
+    className="sm:flex flex-col md:px-20 lg:px-44 text-black">
       <b className="font-bold text-blue-900">Iskolai tanulmányok: </b>
       Gimnáziumi tanulmányok-Kodály Zoltán Ének-Zenei AMI. és Gimnázium
       2 év alatt összvonva 4 évet magántanulókémt vizsgáztam és érettségiztem <br/><br/>
@@ -117,6 +121,6 @@ export default function HunBio({}: Props) {
       <br/><br/>
       Én - hozzájuk hasonlóan - a magyar kultúra, hagyomány és művészet örökség megőrzése és fejlesztése érdekében bízom abban, hogy sokat tudok hozzátenni a színházi világ, a filmművészet, a zene, zenés színházak lemezfelvételek, videoklippek és minden ehhez tartozó művészeti ágazat szenvedélyes művelésével!
       <br/><br/>
-    </div>
+    </motion.div>
   )
 }
