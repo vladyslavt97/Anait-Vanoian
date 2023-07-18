@@ -29,6 +29,7 @@ export default function Home() {
       animate={{opacity:1,
         x:0, y:0
       }}
+      whileHover={{ scale: 1.1 }}
       transition={{duration:2, delay: 0.2}}
       className="mx-2.5 w-full z-10"
       >
