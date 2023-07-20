@@ -52,7 +52,7 @@ export default function Page({}: Props) {
           const modifiedCaption = post.caption.match(regex);
           console.log(modifiedCaption);
           
-        
+        //why?
         return (
         <div key={post.id} className="rounded-xl bg-white max-w-[400px] flex flex-col justify-center items-center p-4">
           {!isVideo ? 
