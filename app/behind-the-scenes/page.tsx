@@ -40,6 +40,8 @@ export default function Page({}: Props) {
         <Link href="https://www.instagram.com/hanna_kelemen_/"><button className="bg-gray-200 px-5 py-2 font-bold rounded-xl h-8 flex items-center">Follow</button></Link>
         </div>
       </div>
+        <Image src="https://scontent.cdninstagram.com/v/t51.29350-15/339079049_594735826034901_2250382366195391055_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=1FlXeX-TKEwAX8Z-OY1&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfCGYcTLkjiGxRBHw1GzfHSdHL6Gvv2tg-MXycOR8bWohQ&oe=64BF1FB5" alt="asda" width={100} height={100}/>
+
       {posts.length === 0 ?
       <div className="flex justify-center items-center h-96">
         <ClipLoader color="#36d7b7" />
@@ -50,7 +52,6 @@ export default function Page({}: Props) {
         const isVideo = post.media_url.includes("mp4");
           const regex = /@(\S+)/g;
           const modifiedCaption = post.caption.match(regex);
-          console.log(modifiedCaption);
           
         //why?
         return (
