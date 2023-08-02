@@ -10,7 +10,7 @@ export default function HunBio({}: Props) {
     <motion.div 
     initial={{opacity:0}}
       animate={{opacity:1}}
-      transition={{duration:1, delay: 0.2}}
+      transition={{duration:2, delay: 0.2}}
     className="sm:flex flex-col md:px-20 lg:px-44 text-black">
       <b className="font-bold text-blue-900">Iskolai tanulmányok: </b>
       Gimnáziumi tanulmányok-Kodály Zoltán Ének-Zenei AMI. és Gimnázium
@@ -39,9 +39,9 @@ export default function HunBio({}: Props) {
       <span className="flex justify-center font-bold text-blue-900 mt-10">Filmszerepek</span>
       <motion.div
       initial={{opacity:0, 
-        x:5, y:5
+        x:10, y:5
       }}
-      animate={{opacity:1,
+      whileInView={{opacity:1,
         x:0, y:0
       }}
       transition={{duration:1, delay: 0.2}}
@@ -75,9 +75,9 @@ export default function HunBio({}: Props) {
 
       <motion.div
       initial={{opacity:0, 
-        x:5, y:5
+        x:10, y:5
       }}
-      animate={{opacity:1,
+      whileInView={{opacity:1,
         x:0, y:0
       }}
       transition={{duration:1, delay: 0.2}}
