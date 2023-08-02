@@ -1,6 +1,8 @@
 "use client"
 import Image from "next/image"
 import { useStore } from "./State";
+import {CopyToClipboard} from 'react-copy-to-clipboard';
+import {LuCopy} from 'react-icons/lu';
 
 type Props = {}
 interface languagesState {
@@ -12,7 +14,13 @@ export default function Footer({}: Props) {
     <div className="relative bottom-0 bg-white m-3 rounded-lg flex flex-col gap-5 p-3 shadow-xl">
       <div>
         <h3 className="italic text-gray-700">{language === "eng" ? "Get in touch:" : "Kapcsolatfelvétel:"}</h3>
-        <h3 className="text-gray-700 font-mono text-sm">hannakelemen1@gmail.com</h3>
+        <div className="flex flex-row gap-2">
+          <h3 className="text-gray-700 font-mono text-sm">hannakelemen1@gmail.com</h3>
+          <CopyToClipboard text="hannakelemen1@gmail.com">
+            <LuCopy/>
+          </CopyToClipboard>
+        </div>
+        
       </div>
       
       <div className="flex flex-row justify-center gap-5">
