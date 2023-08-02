@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { HiDownload } from 'react-icons/hi';
 
 type Props = {}
 
@@ -121,6 +122,12 @@ export default function HunBio({}: Props) {
       <br/><br/>
       Én - hozzájuk hasonlóan - a magyar kultúra, hagyomány és művészet örökség megőrzése és fejlesztése érdekében bízom abban, hogy sokat tudok hozzátenni a színházi világ, a filmművészet, a zene, zenés színházak lemezfelvételek, videoklippek és minden ehhez tartozó művészeti ágazat szenvedélyes művelésével!
       <br/><br/>
+
+
+      <a href="/Kelemen Hanna_2023.pdf" 
+      download
+      className="w-60 mx-auto mt-5 bg-red-400 hover:bg-pink-400 text-white font-bold py-2 px-4 rounded text-center drop-shadow-2xl flex flex-row justify-center"
+      >Életrajz letöltése<HiDownload className='text-xl mx-2'/></a>
     </motion.div>
   )
 }
