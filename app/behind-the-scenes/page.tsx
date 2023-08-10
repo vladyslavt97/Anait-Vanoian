@@ -34,7 +34,7 @@ export default function Page({}: Props) {
   return (
     <div className="bg-pink-50 rounded-2xl m-2.5 p-4 min-h-[97vh]">
       <div className="relative top-12">
-        <h1>My daily life...</h1>
+        <h1>My daily life on Insta...</h1>
         <div className="flex flex-row justify-center items-center">
         <Image src="/avatar.jpeg" alt="avatar" width={50} height={50} className="rounded-full p-2 "/>
         <Link href="https://www.instagram.com/hanna_kelemen_/"><button className="bg-gray-200 px-5 py-2 font-bold rounded-xl h-8 flex items-center">Follow</button></Link>
