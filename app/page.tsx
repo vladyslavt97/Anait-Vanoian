@@ -2,6 +2,7 @@
 import { useStore } from "@/components/State";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 interface languagesState {
   language: string,
@@ -32,10 +33,15 @@ export default function Home() {
       }}
       whileHover={{ scale: 1.05 }}
       transition={{duration:2, delay: 0.2}}
-      className="w-full z-10 flex justify-center"
+      className="w-full z-10 flex justify-center "
       >
-        <Image src="/hanna.jpeg" alt="" width={300} height={300} priority={true} className="rounded-2xl shadow-white"/>
+        <Image src="/hanna.jpeg" alt="" width={300} height={300} priority={true} className="rounded-2xl shadow-white h-64 object-cover" style={{ objectPosition: 'top' }}/>
       </motion.div>
+
+      <div className="rounded-xl bg-red-100/50 mt-10 px-5">
+        <h1 className="text-center text-lg">{language === "hun" ? "Cikkek" : "Articles"}</h1>
+        <h2 className="italic">{language === "hun" ? "Elkezdődött a Majdnem menyasszony forgatása..." : `Filming of Almost the Bride has begun...`} <Link href="https://kultura.hu/elkezdodott-a-majdnem-menyasszony-forgatasa/" className="font-bold not-italic">{language === "hun" ? "Olvass tovább" : "read more"}</Link></h2> 
+      </div>
       
     </main>
   )
