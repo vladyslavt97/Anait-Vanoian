@@ -7,7 +7,7 @@ import Link from "next/link";
 interface languagesState {
   language: string,
 }
-
+//check
 export default function Home() {
   const language = useStore((state: languagesState) => state.language);
   return (
