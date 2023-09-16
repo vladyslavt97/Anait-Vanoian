@@ -24,7 +24,12 @@ export default function Page({}: Props) {
             console.error(error);
         });
   }, [])
-
+  
+  
+  // if(posts[1]){
+  //   console.log(posts[1].media_url);
+  // }
+  
   return (
     <div className="bg-pink-50 rounded-2xl m-2.5 p-4 min-h-[97vh]">
       <div className="relative top-12">
@@ -51,7 +56,7 @@ export default function Page({}: Props) {
           return (
           <div key={post.id} className="rounded-xl bg-white max-w-[400px] flex flex-col justify-center items-center p-4">
             {!isVideo ? 
-            <Image src={post.media_url} alt={post.id} width={100} height={100} className="rounded-lg"/>
+            <img src={post.media_url} alt={post.id} width={100} height={100} className="rounded-lg"/>
             : 
             <video controls src={post.media_url} className="rounded-xl"/>}
             {/* <h1>{post?.caption}</h1> */}
