@@ -11,9 +11,6 @@ interface Post {
   media_url: string;
 }
 
-
-
-
 export default function Page({}: Props) {
 
   const[posts, setPosts] = useState<Post[]>([]);
