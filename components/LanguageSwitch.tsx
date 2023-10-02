@@ -3,6 +3,7 @@ import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import ButtonGroup from "@mui/material/ButtonGroup";
 import { useStore } from "./State";
+import { useEffect, useState } from "react";
 
 type Props = {}
 interface languagesState {
@@ -15,6 +16,17 @@ interface openState {
 }
 
 export default function LanguageSwitch({}: Props) {
+  // const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    const browserLanguage = navigator.language;
+    // setLoaded(true);
+    if(browserLanguage.includes("hu")){
+      setLanguage("hun");
+    } else {
+      setLanguage('eng');
+    }
+  }, []);
 
   const engBio = () => {
     setLanguage('eng');
