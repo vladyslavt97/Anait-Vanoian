@@ -3,6 +3,7 @@ import Image from "next/image"
 import { useStore } from "./State";
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import {LuCopy} from 'react-icons/lu';
+import Link from "next/link";
 
 type Props = {}
 interface languagesState {
@@ -25,11 +26,12 @@ export default function Footer({}: Props) {
       
       <div className="flex flex-row justify-center gap-5">
             <a href="https://www.instagram.com/hanna_kelemen_/" target="_blank" rel="noopener noreferrer" className="flex justify-center">
-                <Image width={30} height={30} src="/instagram.png" alt=""/>
+                <Image width={30} height={30} src="/instagram.png" alt="" className=" object-contain"/>
             </a>
             <a href="https://www.facebook.com/hanna.kelemen.71" target="_blank" rel="noopener noreferrer" className="flex justify-center">
-                <Image width={30} height={30} src="/facebook.png" alt=""/>
+                <Image width={30} height={30} src="/facebook.png" alt="" className=" object-contain"/>
             </a>
+            <Link href="https://gofund.me/f4a57d59"><Image src="/gofundme.png" alt="" width={60} height={60} priority={true} className="rounded-2xl"/></Link>
         </div>
     </div>
   )
