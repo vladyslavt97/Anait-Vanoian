@@ -8,7 +8,7 @@ interface languagesState {
   language: string,
   val: boolean
 }
-//check
+
 export default function Home() {
   const language = useStore((state: languagesState) => state.language);
   const val = useStore((state: languagesState) => state.val);
@@ -41,8 +41,11 @@ export default function Home() {
         <Image src="/hanna.jpeg" alt="" width={300} height={300} priority={true} className="rounded-2xl shadow-white h-64 object-cover" style={{ objectPosition: 'top' }}/>
       </motion.div>
       {val && 
-      <div className="flex flex-col justify-center items-center sm:flex sm:flex-row sm:w-[90vw] sm:justify-center sm:gap-16">
-        <div className="rounded-xl bg-red-100/50 mt-10 px-5 flex justify-center items-center flex-col sm:mx-[5vw] max-md:w-96">
+      <div className="flex flex-col justify-center items-center 
+                  sm:flex sm:flex-row sm:gap-16 px-10">
+
+        <div className="flex justify-center items-center flex-col rounded-xl bg-red-100/50 
+        mt-10 px-5 max-sm:w-90">
           <Link href="https://gofund.me/f4a57d59" target="_blank">
             <Image src="/gofundme.png" alt="" width={100} height={100} priority={true} className="rounded-2xl"/>
           </Link>
@@ -52,13 +55,15 @@ export default function Home() {
           <h2 className="italic mb-2 flex flex-row text-sm justify-center items-center">
             {language === "hun" ? "Adományozáshoz kattintson ide: " : "click here to donate: "} 
             <Link href="https://gofund.me/f4a57d59" target="_blank" className="font-bold not-italic ml-2">
-              <h1 className=" bg-gradient-to-b hover:from-orange-500/70 hover:to-yellow-500/70 from-yellow-500/90 to-orange-500/90 py-1 px-2 rounded-full text-center animate-pulse">{language === "hun" ? "Adományoz" : "Donate"}
+              <h1 className=" bg-gradient-to-b hover:from-orange-500/70 hover:to-yellow-500/70 from-yellow-500/90 to-orange-500/90 py-1 px-2 rounded-full text-center animate-pulse">
+                {language === "hun" ? "Adományoz" : "Donate"}
               </h1>
             </Link>
           </h2> 
         </div>
 
-        <div className="rounded-xl bg-red-100/50 mt-10 px-5 sm:mx-[5vw] max-md:w-96">
+        <div className="rounded-xl bg-red-100/50 
+        mt-10 px-5 max-sm:w-90">
           <h1 className="text-center text-lg">
             {language === "hun" ? "Cikkek" : "Articles"}
           </h1>
@@ -71,7 +76,8 @@ export default function Home() {
         </div>
       </div>
       }
-      
+      <br/>
+      <br/>
     </main>
   )
 }
