@@ -15,13 +15,13 @@ export default function Home() {
 
   return (
     <main 
-    className="bg-[#fff8f9] rounded-2xl m-2.5 p-4 min-h-[87vh] sm:grid grid-cols-2 gap-4 items-center md:p-0"
+    className="bg-[#fff8f9] rounded-2xl m-2.5 p-4 min-h-[87vh] xl:grid grid-cols-2 gap-4 items-center xl:p-0"
     >
       <motion.h1 
       initial={{opacity:0}}
       animate={{opacity:1}}
       transition={{duration:2, delay: 0.4}}
-      className="font-bold text-center pt-16 pb-5 text-4xl md:text-[50px] text-red-400 md:leading-relaxed"
+      className="font-bold text-center pt-16 pb-5 text-4xl xl:text-[50px] text-red-400 xl:leading-relaxed"
       style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}
       >
         Kelemen Hanna
@@ -42,10 +42,10 @@ export default function Home() {
       </motion.div>
       {val && 
       <div className="flex flex-col justify-center items-center 
-                  sm:flex sm:flex-row sm:gap-16 px-10">
+                  xl:flex xl:flex-row xl:gap-16 px-10">
 
         <div className="flex justify-center items-center flex-col rounded-xl bg-red-100/50 
-        mt-10 px-5 max-sm:w-90">
+        mt-10 px-5 max-xl:w-90">
           <Link href="https://gofund.me/f4a57d59" target="_blank">
             <Image src="/gofundme.png" alt="" width={100} height={100} priority={true} className="rounded-2xl"/>
           </Link>
@@ -63,7 +63,7 @@ export default function Home() {
         </div>
 
         <div className="rounded-xl bg-red-100/50 
-        mt-10 px-5 max-sm:w-90">
+        mt-10 px-5 max-xl:w-90">
           <h1 className="text-center text-lg">
             {language === "hun" ? "Cikkek" : "Articles"}
           </h1>
