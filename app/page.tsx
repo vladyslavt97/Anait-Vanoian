@@ -41,18 +41,35 @@ export default function Home() {
         <Image src="/hanna.jpeg" alt="" width={300} height={300} priority={true} className="rounded-2xl shadow-white h-64 object-cover" style={{ objectPosition: 'top' }}/>
       </motion.div>
       {val && 
-      <>
-        <div className="rounded-xl bg-red-100/50 mt-10 px-5 flex justify-center items-center flex-col">
-          <Link href="https://gofund.me/f4a57d59" target="_blank"><Image src="/gofundme.png" alt="" width={100} height={100} priority={true} className="rounded-2xl"/></Link>
-          <Link href="https://gofund.me/f4a57d59" target="_blank"><h1 className="text-center text-lg">{language === "hun" ? "Segíts befejezni tanulmányaimat Glasgow-ban." : "Help me finish my studies in Glasgow."}</h1></Link>
-          <h2 className="italic mb-2 flex flex-row text-sm justify-center items-center">{language === "hun" ? "Adományozáshoz kattintson ide: " : "click here to donate: "} <Link href="https://gofund.me/f4a57d59" target="_blank" className="font-bold not-italic ml-2"><h1 className=" bg-gradient-to-b hover:from-orange-500/70 hover:to-yellow-500/70 from-yellow-500/90 to-orange-500/90 py-1 px-2 rounded-full text-center animate-pulse">{language === "hun" ? "Adományoz" : "Donate"}</h1></Link></h2> 
+      <div className="flex flex-col justify-center items-center sm:flex sm:flex-row sm:w-[90vw] sm:justify-center sm:gap-16">
+        <div className="rounded-xl bg-red-100/50 mt-10 px-5 flex justify-center items-center flex-col sm:mx-[5vw] max-md:w-96">
+          <Link href="https://gofund.me/f4a57d59" target="_blank">
+            <Image src="/gofundme.png" alt="" width={100} height={100} priority={true} className="rounded-2xl"/>
+          </Link>
+          <Link href="https://gofund.me/f4a57d59" target="_blank">
+            <h1 className="text-center text-lg">{language === "hun" ? "Segíts befejezni tanulmányaimat Glasgow-ban." : "Help me finish my studies in Glasgow."}</h1>
+          </Link>
+          <h2 className="italic mb-2 flex flex-row text-sm justify-center items-center">
+            {language === "hun" ? "Adományozáshoz kattintson ide: " : "click here to donate: "} 
+            <Link href="https://gofund.me/f4a57d59" target="_blank" className="font-bold not-italic ml-2">
+              <h1 className=" bg-gradient-to-b hover:from-orange-500/70 hover:to-yellow-500/70 from-yellow-500/90 to-orange-500/90 py-1 px-2 rounded-full text-center animate-pulse">{language === "hun" ? "Adományoz" : "Donate"}
+              </h1>
+            </Link>
+          </h2> 
         </div>
 
-        <div className="rounded-xl bg-red-100/50 mt-10 px-5">
-          <h1 className="text-center text-lg">{language === "hun" ? "Cikkek" : "Articles"}</h1>
-          <h2 className="italic">{language === "hun" ? "Elkezdődött a Majdnem menyasszony forgatása..." : `Filming of Almost the Bride has begun...`} <Link href="https://kultura.hu/elkezdodott-a-majdnem-menyasszony-forgatasa/" className="font-bold not-italic">{language === "hun" ? "Olvass tovább" : "read more"}</Link></h2> 
+        <div className="rounded-xl bg-red-100/50 mt-10 px-5 sm:mx-[5vw] max-md:w-96">
+          <h1 className="text-center text-lg">
+            {language === "hun" ? "Cikkek" : "Articles"}
+          </h1>
+          <h2 className="italic">
+            {language === "hun" ? "Elkezdődött a Majdnem menyasszony forgatása..." : `Filming of Almost the Bride has begun...`} <br/>
+            <Link href="https://kultura.hu/elkezdodott-a-majdnem-menyasszony-forgatasa/" className="font-bold not-italic">
+              {language === "hun" ? "Olvass tovább" : "read more"}
+            </Link>
+          </h2> 
         </div>
-      </>
+      </div>
       }
       
     </main>
