@@ -42,10 +42,10 @@ export default function Home() {
       </motion.div>
       {val && 
       <div className="flex flex-col justify-center items-center 
-                  xl:flex xl:flex-row xl:gap-16 px-10">
+      xl:flex xl:flex-row xl:gap-16 px-10">
 
         <div className="flex justify-center items-center flex-col rounded-xl bg-red-100/50 
-        mt-10 px-5 max-xl:w-94">
+        mt-10 px-3 max-xl:w-94">
           <Link href="https://gofund.me/f4a57d59" target="_blank">
             <Image src="/gofundme.png" alt="" width={100} height={100} priority={true} className="rounded-2xl"/>
           </Link>
@@ -63,12 +63,12 @@ export default function Home() {
         </div>
 
         <div className="rounded-xl bg-red-100/50 
-        mt-10 px-5 max-xl:w-94">
+        mt-10 px-3 max-xl:w-94">
           <h1 className="text-center text-lg">
             {language === "hun" ? "Cikkek" : "Articles"}
           </h1>
           <h2 className="italic">
-            {language === "hun" ? "Elkezdődött a Majdnem menyasszony forgatása..." : `Filming of Almost the Bride has begun...`} <br/>
+            {language === "hun" ? "Elkezdődött a Majdnem menyasszony forgatása..." : "Filming of Almost the Bride has begun... "}
             <Link href="https://kultura.hu/elkezdodott-a-majdnem-menyasszony-forgatasa/" className="font-bold not-italic">
               {language === "hun" ? "Olvass tovább" : "read more"}
             </Link>
