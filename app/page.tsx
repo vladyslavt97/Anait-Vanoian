@@ -45,7 +45,7 @@ export default function Home() {
                   xl:flex xl:flex-row xl:gap-16 px-10">
 
         <div className="flex justify-center items-center flex-col rounded-xl bg-red-100/50 
-        mt-10 px-5 max-xl:w-90">
+        mt-10 px-5 max-xl:w-94">
           <Link href="https://gofund.me/f4a57d59" target="_blank">
             <Image src="/gofundme.png" alt="" width={100} height={100} priority={true} className="rounded-2xl"/>
           </Link>
@@ -63,7 +63,7 @@ export default function Home() {
         </div>
 
         <div className="rounded-xl bg-red-100/50 
-        mt-10 px-5 max-xl:w-90">
+        mt-10 px-5 max-xl:w-94">
           <h1 className="text-center text-lg">
             {language === "hun" ? "Cikkek" : "Articles"}
           </h1>
