@@ -82,6 +82,18 @@ export default function HunBio({}: Props) {
         <br/>
         <br/>
 
+        <p>In 2020, I portrayed the character of Juliet in Shakespeare's play Romeo and Juliet at the Pesti Magyar Színház, directed by Károly Eperjes. The production ran for two years.<br/><br/>
+
+        In 2021, I starred in the four-character film “Lost in the Hug” (Elfogyni az Ölelésben), a production about poet Endre Ady, directed by Ádám Horgas, at the Madách Színház. I played the role of Csinszka (portrayed by Berta Boncza).<br/><br/>
+
+        In the same year, I performed as Cécile de Volange in the musical Dangerous Liaisons at the Operett Theatre, directed by Csaba Kiss. This production ran for two years aswell.<br/><br/>
+
+        In 2022, I took on the leading role of "Vörös" in a 20-episode series titled “Who Are You?” (Ki vagy Te?), aired on RTL+.<br/><br/>
+
+        In 2023, I portrayed Roxie Hart in the musical “Chicago” at the Soproni Petőfi Theatre, directed by Károly Eperjes.<br/><br/>
+
+        This summer in 2023, I filmed my first period feature film, playing the protagonist Marika in “Almost a Bride” (Majdnem Menyasszony), directed by József Pacskovszky.</p>
+
 
         <span className="flex justify-center font-bold text-black" style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}>My hobbies: </span> 
         <br/>
