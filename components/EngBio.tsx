@@ -82,13 +82,13 @@ export default function HunBio({}: Props) {
         <br/>
         <br/>
 
-        <p>In 2020, I portrayed the character of Juliet in Shakespeare's play Romeo and Juliet at the Pesti Magyar Színház, directed by Károly Eperjes. The production ran for two years.<br/><br/>
+        <p>In 2020, I portrayed the character of Juliet in Shakespeare&apos;s play Romeo and Juliet at the Pesti Magyar Színház, directed by Károly Eperjes. The production ran for two years.<br/><br/>
 
         In 2021, I starred in the four-character film “Lost in the Hug” (Elfogyni az Ölelésben), a production about poet Endre Ady, directed by Ádám Horgas, at the Madách Színház. I played the role of Csinszka (portrayed by Berta Boncza).<br/><br/>
 
         In the same year, I performed as Cécile de Volange in the musical Dangerous Liaisons at the Operett Theatre, directed by Csaba Kiss. This production ran for two years aswell.<br/><br/>
 
-        In 2022, I took on the leading role of "Vörös" in a 20-episode series titled “Who Are You?” (Ki vagy Te?), aired on RTL+.<br/><br/>
+        In 2022, I took on the leading role of ”Vörös” in a 20-episode series titled “Who Are You?” (Ki vagy Te?), aired on RTL+.<br/><br/>
 
         In 2023, I portrayed Roxie Hart in the musical “Chicago” at the Soproni Petőfi Theatre, directed by Károly Eperjes.<br/><br/>
 
