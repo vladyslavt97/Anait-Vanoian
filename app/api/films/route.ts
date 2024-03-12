@@ -17,7 +17,8 @@ export async function GET(request: Request) {
       })
     );
   }
-//third under 100
+  
+//
     let publicUrls2: string[] = [];
     const { data: files2 } = await supabase.storage
     .from('hanna')
@@ -39,6 +40,5 @@ export async function GET(request: Request) {
     publicUrls.push(...publicUrls1)
     publicUrls.push(...publicUrls2)
     const filteredPublicUrls = publicUrls.filter(url => !url.endsWith('/.emptyFolderPlaceholder'));
-    console.log(filteredPublicUrls.length)
     return new Response(JSON.stringify({publicUrls: filteredPublicUrls}));
 }
