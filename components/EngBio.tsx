@@ -33,7 +33,7 @@ export default function HunBio({}: Props) {
                     by Károly Eperjes{" "}
                 </li>
                 <li>
-                    •⁠ ⁠Princess - “Stravinsky: The Soldier's Tale” national
+                    •⁠ ⁠Princess - “Stravinsky: The Soldiers Tale” national
                     tour - Directed by Tamás Ascher Film Roles
                 </li>
                 <li>
