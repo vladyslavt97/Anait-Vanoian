@@ -1,123 +1,100 @@
-
-type Props = {}
+type Props = {};
 
 export default function HunBio({}: Props) {
-
     const divstyle = "rounded-2xl mt-5 ";
 
-
-  return (
-    <div className="sm:flex flex-col md:px-20 lg:px-44 text-blue-900">
-        I was born on May 19, 2003 in Kaposvár, in a family of musicians!
-        My musical studies: I played the piano until 2016, in 2014 I won first place at the National Budapest Piano Competition.
-        <br/>
-        <br/>
-        Since 2016, I have been attending Margit Földessy&lsquo;s art school.
-        <br/>
-        <br/>
-        <br/>
-
-
-        <span className="flex justify-center font-bold text-black" style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}>Filmes szerepeim:</span> 
-        <br/>
-        <div className={divstyle} id="thevideosdivs">
-            - Szilágyi Fanni : Orsi és Tensinhan (main role) 2018
-            <iframe
-                src="https://player.vimeo.com/video/456170189" frameBorder="0" 
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
-                title="video1"
-                className="py-4 mx-auto w-64"
-            />
+    return (
+        <div className="sm:flex flex-col md:px-20 lg:px-44 text-blue-900">
+            I was born on May 19, 2003 in Kaposvár, in a family of musicians! My
+            musical studies: I played the piano until 2016, in 2014 I won first
+            place at the National Budapest Piano Competition.
+            <br />
+            <br />
+            Since 2016, I have been attending Margit Földessy&lsquo;s art
+            school.
+            <br />
+            <br />
+            <br />
+            <b>Hanna Kelemen Acting History</b>
+            <br />
+            <br />
+            Roles from 2019-2023 in Theatres and Films: Theatre
+            <ul>
+                <li>
+                    •⁠ ⁠Juliet - “Romeo and Juliet,” Pest Hungarian Theatre -
+                    Directed by Károly Eperjes{" "}
+                </li>
+                <li>
+                    •⁠ ⁠Cécile de Volanges - “Dangerous Liaisons,” Operetta
+                    Theatre - Directed by Csaba Kiss{" "}
+                </li>
+                <li>
+                    •⁠ ⁠Roxie Hart - “Chicago,” Sopron Petőfi Theatre - Directed
+                    by Károly Eperjes{" "}
+                </li>
+                <li>
+                    •⁠ ⁠Princess - “Stravinsky: The Soldier's Tale” national
+                    tour - Directed by Tamás Ascher Film Roles
+                </li>
+                <li>
+                    •⁠ ⁠Piano Girl - “Those Who Stayed” feature film - Directed
+                    by Barnabás Tóth{" "}
+                </li>
+                <li>
+                    •⁠ ⁠Csinszka - “Fading in the Embrace,” theatre film at
+                    Madách Theatre - Directed by Ádám Horgas{" "}
+                </li>
+                <li>
+                    •⁠ ⁠Zoé - “Caravan,” short film - Directed by Szonja Szabó
+                    •⁠ ⁠Vörös - “Who Are You” - series on RTL+{" "}
+                </li>
+                <li>
+                    •⁠ ⁠Hanna - “What Are We Waiting For?” short film - Directed
+                    by Márton Csukás{" "}
+                </li>
+                <li>
+                    •⁠ ⁠Orsi - “Orsi and Tensinham,” short film - Directed by
+                    Fanny Szilágyi{" "}
+                </li>
+                <li>
+                    •⁠ ⁠Franciska - “Falcons,” short film - Directed by Szonja
+                    Szabó{" "}
+                </li>
+                <li>
+                    •⁠ ⁠The Model - music video - Groove Armada, “Edge of the
+                    Horizon,” directed by Theano Kapareli{" "}
+                </li>
+                <li>
+                    •⁠ ⁠The Girl - music video - “Hawlin,” directed by Dalma
+                    Franciska
+                </li>
+            </ul>{" "}
+            First Leading Role in a Feature Film: •⁠ ⁠Lead Role: Marika Ábel -
+            “Almost a Bride,” feature film - Directed by József Pacskovszky
+            <br />
+            <br />
+            <br />
+            <br />
+            Latest works: <br />
+            Nyina- Chekhov-Seagull -Enikő Eszenyi masterclass - Hungary, Csenger
+            <br />
+            <br />
+            <br />
+            <br />
+            Wife - Imre Kertész - Khaddis for an unborn child - 2 actors and 5
+            musicians, a tour of 10 performances in commemoration of the 80th
+            anniversary of the Hungarian Holocaust.
+            <br />
+            <br />
+            <br />
+            <br />
+            <b>Most prestigious film award:</b>
+            <ul>
+                <li>Yasha -The Cherry Orchard - RCS - Hugh Hodgart</li>
+                <li>Marian - The Apples Family - RCS - Peter Collins</li>
+                <li>most prestigious film award:</li>
+                <li>nomination for best actress in film- Mozgókép festival</li>
+            </ul>{" "}
         </div>
-        <br/>
-        - Tóth Barnabás : Those who stayed (supporting role) 2018
-        <br/>
-        <br/>
-        <div className={divstyle} id="thevideosdivs">
-            - Szabó Szonja : Vércsék (main role) 2019
-            <iframe
-                src="https://player.vimeo.com/video/398000995" frameBorder="0" 
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
-                title="video1"
-                className="py-4 mx-auto w-64"
-            />
-        </div>
-
-        <div className={divstyle} id="thevideosdivs">
-            - Csukás Márton : What are we waiting? (main role) 2020
-            <iframe
-                src="https://www.youtube.com/embed/j5MC0O7m4Zk" frameBorder="0" 
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
-                title="video1"
-                className="py-4 mx-auto w-64"
-            />
-        </div>
-        <br/>
-
-
-        <span className="flex justify-center font-bold text-black" style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}>My theater roles:</span> 
-        <br/>
-        - Children&lsquo;s opera by Zsolt Serei - MÜPA Festival Theater - &ldquo;Counter&ldquo;<br/>
-        Premiere: 2017
-        <br/>
-        <br/>
-        <div className={divstyle} id="thevideosdivs">
-            - Romeo and Juliet - Pest Hungarian Theater - Juliet
-            <iframe
-                src="https://www.youtube.com/embed/SGCUxyYyr6g" frameBorder="0" 
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen 
-                title="video1"
-                className="py-4 mx-auto w-64"
-            />
-        </div>
-        <br/>
-        Director: Károly Eperjes<br/>
-        Premiere: September 28, 2020
-        <br/>
-        <br/>
-        - Run Out in the Hug - Madách Theater - Csinszka<br/>
-        Director: Ádám Horgas<br/>
-        Expected premiere: July - August
-        <br/>
-        <br/>
-        <br/>
-
-        <p>In 2020, I portrayed the character of Juliet in Shakespeare&apos;s play Romeo and Juliet at the Pesti Magyar Színház, directed by Károly Eperjes. The production ran for two years.<br/><br/>
-
-        In 2021, I starred in the four-character film “Lost in the Hug” (Elfogyni az Ölelésben), a production about poet Endre Ady, directed by Ádám Horgas, at the Madách Színház. I played the role of Csinszka (portrayed by Berta Boncza).<br/><br/>
-
-        In the same year, I performed as Cécile de Volange in the musical Dangerous Liaisons at the Operett Theatre, directed by Csaba Kiss. This production ran for two years aswell.<br/><br/>
-
-        In 2022, I took on the leading role of ”Vörös” in a 20-episode series titled “Who Are You?” (Ki vagy Te?), aired on RTL+.<br/><br/>
-
-        In 2023, I portrayed Roxie Hart in the musical “Chicago” at the Soproni Petőfi Theatre, directed by Károly Eperjes.<br/><br/>
-
-        This summer in 2023, I filmed my first period feature film, playing the protagonist Marika in “Almost a Bride” (Majdnem Menyasszony), directed by József Pacskovszky.</p>
-
-
-        <span className="flex justify-center font-bold text-black" style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}>My hobbies: </span> 
-        <br/>
-        - literature in English (intermediate language exam)<br/>
-        - modeling :<br/>
-        &nbsp;&nbsp;• &nbsp;2018 - Tokyo - Two months<br/>
-        &nbsp;&nbsp;• &nbsp;2019 - Tokyo - two months<br/>
-        Publication of domestic newspapers: Instyle, MarieClaire, Elle
-        <br/>
-        <br/>
-        <br/>
-
-
-        <span className="flex justify-center font-bold text-black" style={{ textShadow: "1px 1px 10px rgba(255, 255, 255, 0.5)" }}>Singing: </span> 
-        <br/>
-        - Bakáts Téri School choir<br/>
-        - Kodály Zoltán Kodály School<br/>
-        - in Germany - Cologne Cathedral Choir - 2017-19
-        <br/>
-        <br/>
-        - Singing Jazz/Pop songs<br/>
-        - piano<br/>
-        - guitar
-        
-    </div>
-  )
+    );
 }
