@@ -14,7 +14,7 @@ export default function Home() {
     const val = useStore((state: languagesState) => state.val);
 
     return (
-        <main className="bg-[#fff8f9] rounded-2xl m-2.5 p-4 min-h-[87vh] xl:grid grid-cols-2 gap-4 items-center xl:p-0">
+        <main className="bg-[#fff8f9] rounded-2xl m-2.5 p-1 min-h-[87vh] xl:grid grid-cols-2 gap-4 items-center xl:p-0">
             <div>
                 <motion.h1
                     initial={{ opacity: 0 }}
@@ -106,17 +106,25 @@ export default function Home() {
                 animate={{ opacity: 1, x: 0, y: 0 }}
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 2, delay: 0.2 }}
-                className="z-10 flex justify-center py-5 xl:h-screen items-center"
+                className="z-10 flex justify-center py-5 xl:h-screen items-center flex-col"
             >
                 <Image
-                    src="/hanna.jpeg"
+                    src="/CV.png"
                     alt=""
-                    width={300}
-                    height={300}
+                    width={1000}
+                    height={1000}
                     priority={true}
-                    className="rounded-2xl h-64 lg:h-96 object-cover shadow-2xl"
+                    className="rounded-2xl h-full lg:h-96 object-cover shadow-2xl"
                     style={{ objectPosition: "top" }}
                 />
+                <Link
+                    href="https://www.canva.com/design/DAGS0vSLIQA/C3js0bytAzTqQMcB_ipDPA/edit?utm_content=DAGS0vSLIQA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                    className="my-5 bg-gray-400 px-2 rounded-lg shadow-lg text-white hover:bg-gray-600 hover:scale-110"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    View my CV
+                </Link>
             </motion.div>
 
             {/* news and gofundme */}
